@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zealoft</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jim-zenn.github.io/"/>
+  <updated>2016-07-11T16:28:42.000Z</updated>
+  <id>http://jim-zenn.github.io/</id>
+  
+  <author>
+    <name>Jim Zenn</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好，世界！</title>
+    <link href="http://jim-zenn.github.io/2016/07/11/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/"/>
+    <id>http://jim-zenn.github.io/2016/07/11/你好，世界！/</id>
+    <published>2016-07-11T16:01:19.000Z</published>
+    <updated>2016-07-11T16:28:42.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在哈尔滨工业大学结束大二后，我决定转学到伯克利城市学院；我失去了两年大部分的学分， 为了一个名校梦。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在哈尔滨工业大学结束大二后，我决定转学到伯克利城市学院；我失去了两年大部分的学分， 为了一个名校梦。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
