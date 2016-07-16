@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4a3891;
+  background: #ff91e3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2424,4 +2424,8 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.ds-thread .ds-powered-by,
+.ds-thread .ds-replybox .ds-toolbar-buttons {
+  display: none;
 }
