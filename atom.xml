@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jim-zenn.github.io/"/>
-  <updated>2016-07-16T20:04:40.000Z</updated>
+  <updated>2016-08-28T21:07:38.000Z</updated>
   <id>http://jim-zenn.github.io/</id>
   
   <author>
@@ -16,245 +16,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ConvertKit：记5个月从亏本到51%的净利润</title>
-    <link href="http://jim-zenn.github.io/2016/07/16/ConvertKit%EF%BC%9A%E8%AE%B05%E4%B8%AA%E6%9C%88%E4%BB%8E%E4%BA%8F%E6%9C%AC%E5%88%B051-%E7%9A%84%E5%87%80%E5%88%A9%E6%B6%A6/"/>
-    <id>http://jim-zenn.github.io/2016/07/16/ConvertKit：记5个月从亏本到51-的净利润/</id>
-    <published>2016-07-16T19:59:50.000Z</published>
-    <updated>2016-07-16T20:04:40.000Z</updated>
+    <title>送别</title>
+    <link href="http://jim-zenn.github.io/2016/08/28/%E9%80%81%E5%88%AB/"/>
+    <id>http://jim-zenn.github.io/2016/08/28/送别/</id>
+    <published>2016-08-28T21:06:46.000Z</published>
+    <updated>2016-08-28T21:07:38.000Z</updated>
     
-    <content type="html">&lt;p&gt;ConvertKit 是一家 self-funding 的创业公司，这篇文章记录了其创始人在公司困难期间扭亏为盈的过程。本文仅为梗概，欲了解详情请&lt;a href=&quot;http://nathanbarry.com/profit/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阅读原文&lt;/a&gt;。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;我们没有做很多事来消减开销（只是重谈了一些合同），但更重要的是我们专注于效率，这样我们的新开支就不会涨的那么快。总的来说，收入和指出不应该有直接关系。&lt;/p&gt;
-&lt;h1 id=&quot;增强盈利能力&quot;&gt;&lt;a href=&quot;#增强盈利能力&quot; class=&quot;headerlink&quot; title=&quot;增强盈利能力&quot;&gt;&lt;/a&gt;增强盈利能力&lt;/h1&gt;&lt;p&gt;由于我们已经在一个稳定的收入增长轨道上了，我们只需要让花销不要紧跟新收入的步伐就可以了。&lt;/p&gt;
-&lt;h2 id=&quot;重新谈判&quot;&gt;&lt;a href=&quot;#重新谈判&quot; class=&quot;headerlink&quot; title=&quot;重新谈判&quot;&gt;&lt;/a&gt;重新谈判&lt;/h2&gt;&lt;p&gt;第一步是重新谈所有的合同。&lt;/p&gt;
-&lt;h2 id=&quot;削减开支&quot;&gt;&lt;a href=&quot;#削减开支&quot; class=&quot;headerlink&quot; title=&quot;削减开支&quot;&gt;&lt;/a&gt;削减开支&lt;/h2&gt;&lt;p&gt;随着时间的积累，有一些费用已经不再需要了。但都是一些小费用。&lt;/p&gt;
-&lt;p&gt;这两步减少了 $2800 的开支。&lt;/p&gt;
-&lt;h2 id=&quot;提高效率&quot;&gt;&lt;a href=&quot;#提高效率&quot; class=&quot;headerlink&quot; title=&quot;提高效率 (*)&quot;&gt;&lt;/a&gt;提高效率 (*)&lt;/h2&gt;&lt;p&gt;4 个用户支持，5个开发者，3个销售/市场，1个运营管理，本人&lt;/p&gt;
-&lt;p&gt;两倍用户基数，不增加员工&lt;/p&gt;
-&lt;p&gt;我觉得大部分初创公司在快速增长期低估了他们自己的效率。曾经我们效率很低。&lt;/p&gt;
-&lt;p&gt;那时候很多事要做，我们想对用户支持团队做这些改变：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;减少每个用户的工单&lt;blockquote&gt;
-&lt;p&gt;增强用户文档，在对的时间和地点给出文档链接（新手引导）。&lt;br&gt;修 bug，减少导致大部分工单的令人困惑的交互。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;增加每个团队员工处理的回复量&lt;blockquote&gt;
-&lt;p&gt;写好预设回复&lt;br&gt;学些快捷键&lt;br&gt;专注于解决工单队列&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;增强我们回复的质量&lt;blockquote&gt;
-&lt;p&gt;大量的支持队列是由于需要往返沟通几次来找到问题。并且更难解决的工单往往在支持队列力呆的时间更久，因为我们倾向先解决小问题。&lt;br&gt;训练支持团队的信息传递力&lt;br&gt;训练支持团队的对代码的熟悉程度&lt;br&gt;训练支持团队 app 的高级功能&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;结果&quot;&gt;&lt;a href=&quot;#结果&quot; class=&quot;headerlink&quot; title=&quot;结果&quot;&gt;&lt;/a&gt;结果&lt;/h2&gt;&lt;p&gt;平均回复时间从24小时的缩短到了小于8小时。这虽然不是最后想要的结果，但是已经好很多了。&lt;/p&gt;
-&lt;h2 id=&quot;开发&quot;&gt;&lt;a href=&quot;#开发&quot; class=&quot;headerlink&quot; title=&quot;开发&quot;&gt;&lt;/a&gt;开发&lt;/h2&gt;&lt;p&gt;在开发这边，把更多平时用于开发新功能的精力投入基础建设。卓有成效，这段时间我们让月邮件发送量和嵌入表格的 PV 翻了倍。&lt;/p&gt;
-&lt;p&gt;理论上我们可以通过招更多开发者来加快开发速度，但是我在更大的团队做过，其实这招不管用。&lt;/p&gt;
-&lt;h1 id=&quot;数据&quot;&gt;&lt;a href=&quot;#数据&quot; class=&quot;headerlink&quot; title=&quot;数据&quot;&gt;&lt;/a&gt;数据&lt;/h1&gt;&lt;p&gt;鹅妹子嘤！&lt;/p&gt;
-&lt;p&gt;收入还是指数线，花销却从指数线变成了斜率很低的直线。&lt;/p&gt;
-&lt;h1 id=&quot;那多出来的钱怎么花？&quot;&gt;&lt;a href=&quot;#那多出来的钱怎么花？&quot; class=&quot;headerlink&quot; title=&quot;那多出来的钱怎么花？&quot;&gt;&lt;/a&gt;那多出来的钱怎么花？&lt;/h1&gt;&lt;p&gt;花钱还是小心滴。但是在这些方面还是花了点钱。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;队伍合体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;个人财富&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;付费获取用户量&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;招聘&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;有没有因为省钱牺牲增长呢？&quot;&gt;&lt;a href=&quot;#有没有因为省钱牺牲增长呢？&quot; class=&quot;headerlink&quot; title=&quot;有没有因为省钱牺牲增长呢？&quot;&gt;&lt;/a&gt;有没有因为省钱牺牲增长呢？&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;花更多钱在 facebook 广告商&lt;/li&gt;
-&lt;li&gt;更快地雇佣用户支持团队&lt;/li&gt;
-&lt;li&gt;参加或赞助更多会议&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;六月增长满了&quot;&gt;&lt;a href=&quot;#六月增长满了&quot; class=&quot;headerlink&quot; title=&quot;六月增长满了&quot;&gt;&lt;/a&gt;六月增长满了&lt;/h2&gt;&lt;h1 id=&quot;值吗？&quot;&gt;&lt;a href=&quot;#值吗？&quot; class=&quot;headerlink&quot; title=&quot;值吗？&quot;&gt;&lt;/a&gt;值吗？&lt;/h1&gt;&lt;p&gt;外部资金是很贵的。比如说要筹 $500,000，那就要卖掉3.3%的股份，虽然在这个阶段没人想投资这点钱，他们一般要买就买15%-20%。想想我就不喜欢。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;上市公司股价可能在一天之内折半。&lt;/li&gt;
-&lt;li&gt;筹到的钱会不会逼我们退出？&lt;/li&gt;
-&lt;li&gt;如果我想吧发行从公司中拿出来呢？新的董事会不会反对呢？（多半的事）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;直到被收购，我要拿大头。&lt;br&gt;就算不增长，还是有赚头。&lt;/p&gt;
-&lt;h1 id=&quot;自资创业更难&quot;&gt;&lt;a href=&quot;#自资创业更难&quot; class=&quot;headerlink&quot; title=&quot;自资创业更难&quot;&gt;&lt;/a&gt;自资创业更难&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;AWS 不让我们使用他们为初创公司提供的 Activate 计划，因为我们没有风投资金，也没有经过一个加速器。这个项目给初创公司 $15,000到$100,000 AWS 服务器积点。&lt;/li&gt;
-&lt;li&gt;硅谷银行不跟我们谈信贷额度因为我们没有风投支持，即使我们的盈利能力那么强，手里那么多钱，增长速度比风投支持的初创公司快那么多。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我完全理解这背后的商业原因，但是有时候想想这个游戏对自资创业还是不太公平。&lt;/p&gt;
-&lt;h1 id=&quot;盈利能力的影响因素&quot;&gt;&lt;a href=&quot;#盈利能力的影响因素&quot; class=&quot;headerlink&quot; title=&quot;盈利能力的影响因素&quot;&gt;&lt;/a&gt;盈利能力的影响因素&lt;/h1&gt;&lt;p&gt;不走传统路线让我们现在有一些独有的优势&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;没有昂贵的办公室费用&lt;/li&gt;
-&lt;li&gt;不在传统人才市场招聘，能够付在这些市场非常有竞争力的薪资，但还是比纽约和旧金山低&lt;/li&gt;
-&lt;li&gt;我们将专注在适应性，生活质量，和优秀团队而不是高收入？？？&lt;/li&gt;
-&lt;li&gt;我们不花别人的钱，因此我们花的更省&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;p&gt;专注可盈利性对公司而言是非常健康的做法。我们了解到如何节制地使用我们的钱；每个公司都应该知道这点。只有那些净利润非常高的人可以暂时不想这件事；不然的话，你就只能一直花别人的钱。&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>『差不多该安检了。』<br>直到康大师说出这句话，我才忽然感到即将失去重要之物，喉咙竟然有些哽住，也站不起来。我可能确实是麻木的人，但即使习惯于慵懒与麻木的我到了这样的时刻也无法没有感觉。我尽量不说话，生怕这样的感觉继续发酵，慢慢溢到鼻子上。我到星巴克的前台，拜托店员将两杯喝剩的饮料倒掉，一个人站在一边，也好冷静一些。<br>我不愿去想的，或者一直懒得去想。你哭泣的时候，我也只是安慰，不去想的，不去想你为什么哭。不知从什么时候开始，丰富的感情在我的心里成为了一种年少时的事、不成熟的事。对于自己心情的波动总是鄙薄，而且想要很快遏制掉。『重要的是怎么解决，哭是没有用的。』而直到今天才想起，有些事情是无需解决的，有些时刻是应当哭泣的。陪你走到电梯，慢慢向上，你的眼圈果然红红的，又要哭了。<br>抱着你才想起一年要抱不到了。你明明每天晚上都在提醒我的。但是那些时刻我都不以为意。但是这一刻的真切还是将我的心拖下去，沉下去，不可能再感觉不到了。『旅客和工作人员通道，其他人禁止入内。』那块行字铛、铛、铛、铛猛敲我的脑袋，我只能紧紧抱着你。<br>我并没太记得你和我说了什么。你一转身过去，就跨过银河。七夕夜已经过去，又要再等一年。我转身走两步，再回头的时候，你就淹没在那人群里了。我不愿站在那里让你看着，却也不能就这样走开。站着，坐着，看看你，招招手。看不见你了，我就离开了机场。木头脑袋里还是没挤出水，只是嗡嗡地响。<br>Lyft司机不很识相。我已经告诉他刚刚送走了女朋友，他还是一定要和我聊上海。跑上了火车，打开电脑，Calendar 提醒『See Chloe Off, 25 minutes』。但此刻，我的火车已经缓缓开动，驶离圣何塞。</p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;ConvertKit 是一家 self-funding 的创业公司，这篇文章记录了其创始人在公司困难期间扭亏为盈的过程。本文仅为梗概，欲了解详情请&lt;a href=&quot;http://nathanbarry.com/profit/&quot;&gt;阅读原文&lt;/a&gt;。&lt;/p&gt;
+      &lt;p&gt;『差不多该安检了。』&lt;br&gt;直到康大师说出这句话，我才忽然感到即将失去重要之物，喉咙竟然有些哽住，也站不起来。我可能确实是麻木的人，但即使习惯于慵懒与麻木的我到了这样的时刻也无法没有感觉。我尽量不说话，生怕这样的感觉继续发酵，慢慢溢到鼻子上。我到星巴克的前台，拜托店员将两杯
     
     </summary>
     
     
-      <category term="自资创业" scheme="http://jim-zenn.github.io/tags/%E8%87%AA%E8%B5%84%E5%88%9B%E4%B8%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>6个SaaS市场营销的建议</title>
-    <link href="http://jim-zenn.github.io/2016/07/16/6%E4%B8%AASaaS%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E7%9A%84%E5%BB%BA%E8%AE%AE/"/>
-    <id>http://jim-zenn.github.io/2016/07/16/6个SaaS市场营销的建议/</id>
-    <published>2016-07-16T19:58:56.000Z</published>
-    <updated>2016-07-16T20:07:10.000Z</updated>
-    
-    <content type="html">&lt;p&gt;本文为 OpenView Venture Partner 对 ExactTarget 的前CMO Tim Copp的访谈。Tim Copp 的市场营销管理经历相当丰富，详情请自行LinkedIn。&lt;br&gt;ExactTarget 已被 SalesForce 收购。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;1-一切始于品牌&quot;&gt;&lt;a href=&quot;#1-一切始于品牌&quot; class=&quot;headerlink&quot; title=&quot;1. 一切始于品牌&quot;&gt;&lt;/a&gt;1. 一切始于品牌&lt;/h2&gt;&lt;p&gt;打造定位精准和信息明确的品牌是一切营销的基础。有着优秀的品牌作为后盾，公司就能够招募并保有一支高质量的销售团队，而优秀的销售是一家 SaaS 公司成功与否的衡量标准。领跑行业的品牌将主宰市场：因为使用这个品牌的服务已经成为一种风尚。&lt;/p&gt;
-&lt;h2 id=&quot;2-外包？不。&quot;&gt;&lt;a href=&quot;#2-外包？不。&quot; class=&quot;headerlink&quot; title=&quot;2. 外包？不。&quot;&gt;&lt;/a&gt;2. 外包？不。&lt;/h2&gt;&lt;p&gt;SaaS 公司将设计、公关等工作外包是不明智的。这些工作与公司本身的连通性和一致性非常重要，而第三方代理们跟不上、更不了解这个行业。然而，在公司内部建立完成相应工作的机构也很具挑战性。招募大量优秀员工很困难。但是这是值得的。&lt;/p&gt;
-&lt;h2 id=&quot;4-天才正涌向科技公司&quot;&gt;&lt;a href=&quot;#4-天才正涌向科技公司&quot; class=&quot;headerlink&quot; title=&quot;4. 天才正涌向科技公司&quot;&gt;&lt;/a&gt;4. 天才正涌向科技公司&lt;/h2&gt;&lt;p&gt;但比起传统行业，科技公司的工作更具挑战性。这些公司让 CMO 直接接触到客户而非经销商，因而他们能获得更多信息。更重要的是，他们获得了与更多牛人一起工作的机会。而科技公司应该招募多才多艺的人：尤其是有全局观、有领导力的人。&lt;/p&gt;
-&lt;h2 id=&quot;4-纵观全局，因时制宜&quot;&gt;&lt;a href=&quot;#4-纵观全局，因时制宜&quot; class=&quot;headerlink&quot; title=&quot;4.  纵观全局，因时制宜&quot;&gt;&lt;/a&gt;4.  纵观全局，因时制宜&lt;/h2&gt;&lt;p&gt;加强品牌、联系咨询公司、销售支持，这些都好比是 CMO 手里的牌，CMO 的工作就是在对的时间打出对的牌。首先抓住市场的需求，并与销售团队合作；明确方向后，加强销售支持，持续打造清晰明确的品牌。理解行业全貌，看清整个生态，理解所有市场资产和技巧中的关系，这些深谋远虑的洞见使得 CMO 能够将手中的牌有效、高效地部署下去。&lt;/p&gt;
-&lt;h2 id=&quot;5-驱动销售永远是第一任务&quot;&gt;&lt;a href=&quot;#5-驱动销售永远是第一任务&quot; class=&quot;headerlink&quot; title=&quot;5. 驱动销售永远是第一任务&quot;&gt;&lt;/a&gt;5. 驱动销售永远是第一任务&lt;/h2&gt;&lt;p&gt;CMO 的最重要的工作永远是如何有效与销售团队协作来驱动销售。只有在这个前提下，你才有基础去做其他事情。&lt;/p&gt;
-&lt;h2 id=&quot;6-为用户和员工提供最优的体验&quot;&gt;&lt;a href=&quot;#6-为用户和员工提供最优的体验&quot; class=&quot;headerlink&quot; title=&quot;6. 为用户和员工提供最优的体验&quot;&gt;&lt;/a&gt;6. 为用户和员工提供最优的体验&lt;/h2&gt;&lt;p&gt;不要忽略员工的参与度。过去 CMO 的工作是仅仅是寻找销售线索，而现在则是制造内容和优秀的体验。一家能够同时为用户和员工带来优质体验的 SaaS 公司，才能够脱颖而出。&lt;/p&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/company/3354666?trk=prof-0-ovw-curr_pos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hyde Park Venture Partners&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/cmovc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TIM KOPP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://labs.openviewpartners.com/rethink-analyst-model-tim-kopp/#.V3YL5JOU2Aw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hyde Park Venture Partners’ Tim Kopp: It’s Time to Rethink the Analyst Model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://labs.openviewpartners.com/3-trends-revolutionizing-marketing/#.V3YL5ZOU2Aw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3 Trends Revolutionizing Marketing from Hyde Park’s Tim Kopp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.marketingcloud.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ExactTarget&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文为 OpenView Venture Partner 对 ExactTarget 的前CMO Tim Copp的访谈。Tim Copp 的市场营销管理经历相当丰富，详情请自行LinkedIn。&lt;br&gt;ExactTarget 已被 SalesForce 收购。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="SaaS" scheme="http://jim-zenn.github.io/tags/SaaS/"/>
-    
-      <category term="市场" scheme="http://jim-zenn.github.io/tags/%E5%B8%82%E5%9C%BA/"/>
-    
-      <category term="销售" scheme="http://jim-zenn.github.io/tags/%E9%94%80%E5%94%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何创立一家初创公司：第一部分</title>
-    <link href="http://jim-zenn.github.io/2016/07/16/%E5%A6%82%E4%BD%95%E5%88%9B%E7%AB%8B%E4%B8%80%E5%AE%B6%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8%EF%BC%9A%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/"/>
-    <id>http://jim-zenn.github.io/2016/07/16/如何创立一家初创公司：第一部分/</id>
-    <published>2016-07-16T18:02:43.000Z</published>
-    <updated>2016-07-16T21:16:07.000Z</updated>
-    
-    <content type="html">&lt;p&gt;这是斯坦福CS183B创业课程的笔记。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;一家初创公司应具备：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;好的想法 (Great Idea)&lt;/li&gt;
-&lt;li&gt;好的产品 (Great Product)&lt;/li&gt;
-&lt;li&gt;好的团队 (Great Team)&lt;/li&gt;
-&lt;li&gt;强执行力 (Great Execution)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不要为了创业而创业，更简单的致富的方法太多了。&lt;/p&gt;
-&lt;p&gt;每个创业者都说，他们无法想象创业会这么难。&lt;/p&gt;
-&lt;p&gt;只有当你遇到了一个问题，而创业是最好的解决办法的时候，你才去创业。先要有这样的热情，才能有初创公司。&lt;/p&gt;
-&lt;h2 id=&quot;Idea&quot;&gt;&lt;a href=&quot;#Idea&quot; class=&quot;headerlink&quot; title=&quot;Idea&quot;&gt;&lt;/a&gt;Idea&lt;/h2&gt;&lt;p&gt;在把产品送到用户手中之前，你并不能弄清多少东西。&lt;/p&gt;
-&lt;p&gt;好的执行力比一个好的点子重要十倍，也要困难十倍。但朝着一个不好的方向再努力，也是做不出什么东西的。&lt;/p&gt;
-&lt;p&gt;而你应该向着你想要的方向努力。&lt;/p&gt;
-&lt;h3 id=&quot;什么是好的-idea&quot;&gt;&lt;a href=&quot;#什么是好的-idea&quot; class=&quot;headerlink&quot; title=&quot;什么是好的 idea&quot;&gt;&lt;/a&gt;什么是好的 idea&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;市场有多大？增长空间有多大？&lt;/li&gt;
-&lt;li&gt;公司的增长策略是什么样的？&lt;/li&gt;
-&lt;li&gt;防御策略是什么样的？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些问题，在你衡量一个idea的时候，都应该考虑到。因为一旦你决定要做这件事，你可能要在这件事上做十年。&lt;/p&gt;
-&lt;p&gt;所以一定要提前花点时间，想好公司长期的价值，和这个生意的防御策略。&lt;/p&gt;
-&lt;p&gt;虽然有些计划本身可能没什么价值，但是尝试去练习做计划是很有价值的。而今天的初创公司却很缺少这一点。&lt;/p&gt;
-&lt;p&gt;长远考虑在哪里都很重要，但在初创公司尤其重要。&lt;/p&gt;
-&lt;p&gt;在创业过程中，idea可能会扩张。要有一个很好的核心目标，并且这个目标具有可扩张性。你需要做一个难以复制的生意。&lt;/p&gt;
-&lt;p&gt;首先要有想法，然后再创业。你一定要非常想做这个想法，然后才创业。&lt;/p&gt;
-&lt;p&gt;好的公司往往总是使命导向的。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;让很多人同时非常专注是非常困难的，要得到一家创业公司所需要的高生产力也是很难的，除非大家感到这家公司有一个&lt;em&gt;非常重要的使命&lt;/em&gt;。&lt;/li&gt;
-&lt;li&gt;以使命为目标的想法的好处就是你自己也会全身心地投入进去。因为要做一个成功的初创公司需要大约十年的时间，如果你自己不喜欢、不相信你在做的事情，那么你肯定会半途而废。&lt;/li&gt;
-&lt;li&gt;使命导向的公司的第三个优势是公司外的人更愿意帮助你，你会得到更多在一个困难但是重要的工作上得到更多的支持，而不是在一个复制品上。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;做一个难做的初创公司比做一个做一个好做的初创公司更难。&lt;/p&gt;
-&lt;p&gt;最好的想法往往最开始看起来很糟糕。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;看起来糟糕的想法&lt;/em&gt;和&lt;em&gt;确实是个好的想法&lt;/em&gt;的交集就是&lt;em&gt;初创公司需要的想法&lt;/em&gt;。你要对自己的想法有信仰，并坚决无视其他人的否定。&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;I know it sounds like a bad idea, but here’s specifically why it’s actually a great one.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;一家好的公司最后应该有垄断地位，但是肯定一开始是不可能立刻垄断整个市场的。&lt;em&gt;一定是先垄断一个小的市场，然后快速扩张&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;第一个版本的想法不用太大，然后花时间想一想市场会怎样演化，一个十年的市场会怎样演化。&lt;/p&gt;
-&lt;p&gt;对于一个初创企业而言，增速是非常重要的，甚至比它的大小更重要。它的目标客户应该非常迫切的需要这样一个产品。&lt;/p&gt;
-&lt;p&gt;你不能去创造一个根本不想存在的市场。&lt;/p&gt;
-&lt;p&gt;学生往往更清楚哪些市场在未来会飞速增长。&lt;/p&gt;
-&lt;p&gt;为什么是现在？为什么不是几年前或者几年后？&lt;/p&gt;
-&lt;p&gt;通常来说，你最好做一些你自己非常需要的东西。&lt;/p&gt;
-&lt;p&gt;好的想法应该是非常容易说清楚，也非常容易理解的。&lt;/p&gt;
-&lt;p&gt;一家好的初创公司应该和现有的公司在某一个重要的方面有着很大的不同，或者完全就是个新的东西。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;时长想想又没有什么新的点子&lt;/li&gt;
-&lt;li&gt;常常与你的潜在联合创始人见面&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Most people think first of what they want to express or make, then find the audience for their idea.&lt;br&gt;you must work the opposite angle, thinking first of the public.&lt;br&gt;You need to keep your focus on their changing needs, the trends that are&lt;br&gt;wahing through them. Beginning wit their demand, you create the appropriate&lt;br&gt;supply.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;要清楚市场的需求是什么。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是斯坦福CS183B创业课程的笔记。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="创业" scheme="http://jim-zenn.github.io/tags/%E5%88%9B%E4%B8%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不安分的我都做了些什么</title>
-    <link href="http://jim-zenn.github.io/2016/07/15/%E4%B8%8D%E5%AE%89%E5%88%86%E7%9A%84%E6%88%91%E9%83%BD%E5%81%9A%E4%BA%86%E4%BA%9B%E4%BB%80%E4%B9%88/"/>
-    <id>http://jim-zenn.github.io/2016/07/15/不安分的我都做了些什么/</id>
-    <published>2016-07-16T04:01:19.000Z</published>
-    <updated>2016-07-16T16:29:09.000Z</updated>
-    
-    <content type="html">&lt;p&gt;高中毕业之后，我一次一次选择了不一样的路。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;哈尔滨工业大学&quot;&gt;&lt;a href=&quot;#哈尔滨工业大学&quot; class=&quot;headerlink&quot; title=&quot;哈尔滨工业大学&quot;&gt;&lt;/a&gt;哈尔滨工业大学&lt;/h2&gt;&lt;p&gt;我在哈尔滨工业大学学习了两年。&lt;/p&gt;
-&lt;p&gt;我没有将精力花在学习上，而花在了我所在的社团里。如果再来一次，我也不知道我是否会改变。来自南方的我无法承受哈工大专注学术的无趣与冬天来临时的萧索，我把大把大把的时间投入社团，希望我能够做出一些不同的东西。我感到无穷的可能性，直到有一天我也碰到了那个局限。&lt;/p&gt;
-&lt;p&gt;我没有兼顾好学习和社团，两者都没有做好。一个错在投入太少，一个错在投入太多。作为一个学生，我没有花足够的时间学习； 再社团里，我却大包大揽，没有给其他人机会，也拖垮了自己。&lt;/p&gt;
-&lt;p&gt;但我今天不是来忏悔的，我一点都不后悔。感谢曾经犯的错，我走上了一条完全不同的道路。&lt;/p&gt;
-&lt;p&gt;在哈尔滨工业大学结束大二后， 我在乔仪的劝说下休学实习。（至今仍然不知道乔熊哪里来的底气劝说一个认识不过两三天的人休学。）&lt;/p&gt;
-&lt;p&gt;在这样的背景下，我来到Teambition。&lt;/p&gt;
-&lt;h2 id=&quot;Teambition&quot;&gt;&lt;a href=&quot;#Teambition&quot; class=&quot;headerlink&quot; title=&quot;Teambition&quot;&gt;&lt;/a&gt;Teambition&lt;/h2&gt;&lt;p&gt;我喜欢这个地方。&lt;/p&gt;
-&lt;p&gt;我感受到一个初创公司的活力，这是和哈工大截然相反的。不断从用户的反馈里找到新的方向，并以此打磨产品，这个过程令人兴奋。在这个团队里也有很多牛人，有什么问题立刻就可以得到解答。在实际项目里工作后，也理解了在学校里写的项目是多么的理想化。但最重要的是我了解了一个SaaS公司是怎样运作的，技术、设计、产品与增长、用户支持、用户成功、销售等等。这给了我极为宝贵的经验和知识。&lt;/p&gt;
-&lt;p&gt;但是我知道这个地方终究不能是终点。而要前往下一个车站，我必须要开始起程。&lt;/p&gt;
-&lt;h2 id=&quot;Berkeley-City-College-（伯克利城市学院）&quot;&gt;&lt;a href=&quot;#Berkeley-City-College-（伯克利城市学院）&quot; class=&quot;headerlink&quot; title=&quot;Berkeley City College （伯克利城市学院）&quot;&gt;&lt;/a&gt;Berkeley City College （伯克利城市学院）&lt;/h2&gt;&lt;p&gt;我决定转学到伯克利城市学院，这是一所毗邻UC Berkeley的社区大学。我哈工大的同学们已经开始准备读大三下了，而此时的我却不得不丢掉所有学分重新来过。但在这里，我相信我学到了很多在哈工大永远学不到的东西；这里的有些课程甚至比哈工大的课程更加优秀。由于我就住在UC Berkeley一条马路对面的地方，我有机会走进这所学校，去了解她的文化和氛围。我感受到了完全不一样的东西，除了学习之外，大学生活是可以很丰富的，而一所大学也并不是处处强调学习的。当然，这和我来到了美国也有关系，在中国的政治氛围下，学生并不被鼓励去讨论政治相关的话题，我完全理解的。但是在美国，我了解到了大学的另一种可能性。在这里，还有很多需要我去探索。&lt;/p&gt;
-&lt;h2 id=&quot;？&quot;&gt;&lt;a href=&quot;#？&quot; class=&quot;headerlink&quot; title=&quot;？&quot;&gt;&lt;/a&gt;？&lt;/h2&gt;&lt;p&gt;我决定要创业。&lt;/p&gt;
-&lt;p&gt;  两手空空的我，没有信息和氛围的我要从哪里开始呢？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;WeWork.&lt;/p&gt;
-&lt;p&gt;去看一看创业公司都在做些什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;与大家聊一聊。&lt;/p&gt;
-&lt;p&gt;那些在创业公司里做过的人，和创过业的人，都在做过了什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Stanford.&lt;/p&gt;
-&lt;p&gt;去斯坦福，听听大家都曾经做过什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;OpenView&lt;/p&gt;
-&lt;p&gt;在美国，大家都在做什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;高中毕业之后，我一次一次选择了不一样的路。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="about" scheme="http://jim-zenn.github.io/tags/about/"/>
+      <category term="生活" scheme="http://jim-zenn.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
