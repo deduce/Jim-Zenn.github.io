@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ee1dff;
+  background: #ffe2ad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2433,4 +2433,7 @@ hr {
 .ds-thread #ds-reset a.ds-like-thread-button {
   background-image: none !important;
   background-color: #fefefe !important;
+}
+.ds-thread .ds-sync {
+  display: none !important;
 }
