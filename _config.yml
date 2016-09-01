@@ -5,10 +5,11 @@
 # Site
 title: Zealoft
 subtitle:
-description:
+description: 生活是一道关于时间的最优化问题
 author: Jim Zenn
-language: en
+language: zh-Hans
 timezone: America/Los_Angeles
+avatar: /images/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
