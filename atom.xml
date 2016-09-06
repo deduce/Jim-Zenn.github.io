@@ -36,8 +36,6 @@
     </summary>
     
     
-      <category term="生活" scheme="http://jim-zenn.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="UC Berkekey" scheme="http://jim-zenn.github.io/tags/UC-Berkekey/"/>
     
       <category term="Berkeley City College" scheme="http://jim-zenn.github.io/tags/Berkeley-City-College/"/>
@@ -45,6 +43,8 @@
       <category term="Machine Learning" scheme="http://jim-zenn.github.io/tags/Machine-Learning/"/>
     
       <category term="ML@B" scheme="http://jim-zenn.github.io/tags/ML-B/"/>
+    
+      <category term="生活" scheme="http://jim-zenn.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
