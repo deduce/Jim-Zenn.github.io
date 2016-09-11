@@ -73,6 +73,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Zealoft" type="application/atom+xml" />
 
@@ -86,16 +88,16 @@
 
 
 
-<meta name="description" content="// Your Client ID can be retrieved from your project in the Google      // Developer Console, https://console.developers.google.com      var CLIENT_ID = ‘229623275211-1929vlanugm96grpk353s">
+<meta name="description" content="正在经历一场豪赌">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Zealoft">
+<meta property="og:title" content="about">
 <meta property="og:url" content="http://blog.zealoft.com/about/index.html">
 <meta property="og:site_name" content="Zealoft">
-<meta property="og:description" content="// Your Client ID can be retrieved from your project in the Google      // Developer Console, https://console.developers.google.com      var CLIENT_ID = ‘229623275211-1929vlanugm96grpk353s">
-<meta property="og:updated_time" content="2016-09-11T21:12:13.000Z">
+<meta property="og:description" content="正在经历一场豪赌">
+<meta property="og:updated_time" content="2016-09-11T21:14:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Zealoft">
-<meta name="twitter:description" content="// Your Client ID can be retrieved from your project in the Google      // Developer Console, https://console.developers.google.com      var CLIENT_ID = ‘229623275211-1929vlanugm96grpk353s">
+<meta name="twitter:title" content="about">
+<meta name="twitter:description" content="正在经历一场豪赌">
 
 
 
@@ -122,7 +124,7 @@
   
 
   
-     | Zealoft
+    about | Zealoft
   
 </title>
 </head>
@@ -255,19 +257,7 @@
   <div id="posts" class="posts-expand">
     
     
-      <html><br>  <head><br>    <script type="text/javascript"><br>      // Your Client ID can be retrieved from your project in the Google<br>      // Developer Console, <a href="https://console.developers.google.com">https://console.developers.google.com</a><br>      var CLIENT_ID = ‘229623275211-1929vlanugm96grpk353ss7qrt9apqrt.apps.googleusercontent.com’;<br><br>      var SCOPES = [“<a href="https://www.googleapis.com/auth/calendar.readonly">https://www.googleapis.com/auth/calendar.readonly</a>“];<br><br>      /<strong><br>       <em> Check if current user has authorized this application.
-       </em>/<br>      function checkAuth() {<br>        gapi.auth.authorize(<br>          {<br>            ‘client_id’: CLIENT_ID,<br>            ‘scope’: SCOPES.join(‘ ‘),<br>            ‘immediate’: true<br>          }, handleAuthResult);<br>      }<br><br>      /</strong><br>       <em> Handle response from authorization server.
-       </em><br>       <em> @param {Object} authResult Authorization result.
-       </em>/<br>      function handleAuthResult(authResult) {<br>        var authorizeDiv = document.getElementById(‘authorize-div’);<br>        if (authResult &amp;&amp; !authResult.error) {<br>          // Hide auth UI, then load client library.<br>          authorizeDiv.style.display = ‘none’;<br>          loadCalendarApi();<br>        } else {<br>          // Show auth UI, allowing the user to initiate authorization by<br>          // clicking authorize button.<br>          authorizeDiv.style.display = ‘inline’;<br>        }<br>      }<br><br>      /<strong><br>       <em> Initiate auth flow in response to user clicking authorize button.
-       </em><br>       <em> @param {Event} event Button click event.
-       </em>/<br>      function handleAuthClick(event) {<br>        gapi.auth.authorize(<br>          {client_id: CLIENT_ID, scope: SCOPES, immediate: false},<br>          handleAuthResult);<br>        return false;<br>      }<br><br>      /</strong><br>       <em> Load Google Calendar client library. List upcoming events
-       </em> once client library is loaded.<br>       <em>/<br>      function loadCalendarApi() {<br>        gapi.client.load(‘calendar’, ‘v3’, listUpcomingEvents);<br>      }<br><br>      /**
-       </em> Print the summary and start datetime/date of the next ten events in<br>       <em> the authorized user’s calendar. If no events are found an
-       </em> appropriate message is printed.<br>       <em>/<br>      function listUpcomingEvents() {<br>        var request = gapi.client.calendar.events.list({<br>          ‘calendarId’: ‘primary’,<br>          ‘timeMin’: (new Date()).toISOString(),<br>          ‘showDeleted’: false,<br>          ‘singleEvents’: true,<br>          ‘maxResults’: 10,<br>          ‘orderBy’: ‘startTime’<br>        });<br><br>        request.execute(function(resp) {<br>          var events = resp.items;<br>          appendPre(‘Upcoming events:’);<br><br>          if (events.length &gt; 0) {<br>            for (i = 0; i &lt; events.length; i++) {<br>              var event = events[i];<br>              var when = event.start.dateTime;<br>              if (!when) {<br>                when = event.start.date;<br>              }<br>              appendPre(event.summary + ‘ (‘ + when + ‘)’)<br>            }<br>          } else {<br>            appendPre(‘No upcoming events found.’);<br>          }<br><br>        });<br>      }<br><br>      /**
-       </em> Append a pre element to the body containing the given message<br>       <em> as its text node.
-       </em><br>       <em> @param {string} message Text to be placed in pre element.
-       </em>/<br>      function appendPre(message) {<br>        var pre = document.getElementById(‘output’);<br>        var textContent = document.createTextNode(message + ‘\n’);<br>        pre.appendChild(textContent);<br>      }<br><br>    </script><br>    <script src="https://apis.google.com/js/client.js?onload=checkAuth"><br>    </script><br>  </head><br>  <body><br>    <div id="authorize-div" style="display: none"><br>      <span>Authorize access to Google Calendar API</span><br>      <!--Button for the user to click to initiate auth sequence --><br>      <button id="authorize-button" onclick="handleAuthClick(event)"><br>        Authorize<br>      </button><br>    </div><br>    <pre id="output"></pre><br>  </body><br></html>
-
+      
     
   </div>
 
@@ -277,14 +267,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="about/index.html"
-           data-title="" data-url="http://blog.zealoft.com/about/index.html">
-      </div>
-    
-  </div>
-
 
         </div>
         
