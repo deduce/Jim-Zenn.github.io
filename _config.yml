@@ -4,16 +4,16 @@
 
 # Site
 title: Zealoft
-subtitle:
-description: 生活是一道关于时间的最优化问题
+subtitle: 在这里阅读一个有趣的人
 author: Jim Zenn
+description: 正在经历一场豪赌
 language: zh-Hans
 timezone: America/Los_Angeles
 avatar: /images/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jim-zenn.github.io/
+url: http://blog.zealoft.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -71,3 +71,4 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/Jim-Zenn/Jim-Zenn.github.io
+
