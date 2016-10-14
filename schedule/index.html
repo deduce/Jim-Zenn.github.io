@@ -704,8 +704,8 @@ if (timeZone) {
   request_url = request_url + '&' + FIELD_TIMEZONE + '=' + timeZone;
 }
 
-//var queryLoop = window.setInterval(fetchData, 3600);
 fetchData();
+var queryLoop = setInterval(fetchData, 60000);
 
 function fetchData() {
   $.ajax({
