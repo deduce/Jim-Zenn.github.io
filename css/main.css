@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #778fff;
+  background: #d4ff54;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2166,7 +2166,8 @@ a.search-result {
   min-height: 40px;
 }
 #schedule ul#event-list li.event h2.event-summary {
-  margin-left: 0 0 0 32px;
+  margin: 0;
+  padding-bottom: 3px;
 }
 #schedule ul#event-list li.event h2.event-summary:before {
   display: inline-block;
@@ -2187,8 +2188,14 @@ a.search-result {
 #schedule ul#event-list li.event span.event-details {
   display: block;
   color: #bbb;
+  margin-left: 56px;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  text-indent: -24px;
+  line-height: 18px;
 }
 #schedule ul#event-list li.event span.event-details:before {
+  text-indent: 0;
   display: inline-block;
   width: 14px;
   font-family: FontAwesome;
