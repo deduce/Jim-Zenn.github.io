@@ -88,12 +88,13 @@
 
 <meta name="description" content="正在经历一场豪赌">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Zealoft">
-<meta property="og:url" content="http://blog.zealoft.com/archives/2016/08/index.html">
+<meta property="og:title" content="schedule">
+<meta property="og:url" content="http://blog.zealoft.com/schedule/index.html">
 <meta property="og:site_name" content="Zealoft">
 <meta property="og:description" content="正在经历一场豪赌">
+<meta property="og:updated_time" content="2016-10-13T08:01:11.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Zealoft">
+<meta name="twitter:title" content="schedule">
 <meta name="twitter:description" content="正在经历一场豪赌">
 
 
@@ -115,10 +116,10 @@
 
 
 
-  <link rel="canonical" href="http://blog.zealoft.com/archives/2016/08/"/>
+  <link rel="canonical" href="http://blog.zealoft.com/schedule/"/>
 
 
-  <title> 归档 | Zealoft </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> 日程 | Zealoft </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -148,7 +149,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -256,140 +257,10 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 4 篇日志。 继续努力。
-    </span>
-
-    
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/08/31/再一次想起被学霸环绕的恐惧/" itemprop="url">
-              
-                <span itemprop="name">再一次想起被学霸环绕的恐惧</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-31T21:23:23-07:00"
-              content="2016-08-31" >
-          08-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/08/30/聚集/" itemprop="url">
-              
-                <span itemprop="name">聚集</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-30T21:27:32-07:00"
-              content="2016-08-30" >
-          08-30
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/08/28/送别/" itemprop="url">
-              
-                <span itemprop="name">送别</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-28T14:06:46-07:00"
-              content="2016-08-28" >
-          08-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
+  <section id="schedule">
+    <ul id="event-list">
+    </ul>
   </section>
-
-  
-
 
 
           </div>
@@ -624,12 +495,6 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
 
   
 
@@ -778,7 +643,168 @@
         showTime(Counter);
       }
     });
-  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+  </script>
+
+
+
+  
+  
+
+
+<script>
+
+// Initialization
+var _n = function(arg) { if(arg) return arg; else return void 0;}
+
+var cal_data = void 0;
+
+var now = new Date();
+var timeMax = new Date();
+var timeMin = new Date();
+
+// Read config form theme config file
+var calId           = _n('jimzenn0@gmail.com')                ;
+var apiKey          = _n('AIzaSyCjcukcNCAjWnIlI8MNatepeUX0038HRTU')                ;
+var orderBy         = _n('')  || 'startTime';
+var offsetMax       = _n(  )  || 24         ;
+var offsetMin       = _n(  )  || 4          ;
+var timeZone        = _n(  )  || void 0     ;
+var showDeleted     = _n(  )  || 'false'    ;
+var singleEvents    = _n(  )  || 'true'     ;
+var maxResults      = _n(  )  || '250'      ;
+
+timeMax.setHours(now.getHours() + offsetMax);
+timeMin.setHours(now.getHours() - offsetMin);
+
+// Build URL
+BASE_URL            = 'https://www.googleapis.com/calendar/v3/calendars/';
+FIELD_KEY           = 'key';
+FIELD_ORDERBY       = 'orderBy';
+FIELD_TIMEMAX       = 'timeMax';
+FIELD_TIMEMIN       = 'timeMin';
+FIELD_TIMEZONE      = 'timeZone';
+FIELD_SHOWDELETED   = 'showDeleted';
+FIELD_SINGLEEVENTS  = 'singleEvents';
+FIELD_MAXRESULTS    = 'maxResults';
+
+key                 = 'AIzaSyCjcukcNCAjWnIlI8MNatepeUX0038HRTU';
+timeMaxISO          = timeMax.toISOString();
+timeMinISO          = timeMin.toISOString();
+
+request_url = BASE_URL + calId + '/events?'  +
+  FIELD_KEY           + '=' + apiKey        + '&' +
+  FIELD_ORDERBY       + '=' + orderBy       + '&' +
+  FIELD_TIMEMAX       + '=' + timeMaxISO    + '&' +
+  FIELD_TIMEMIN       + '=' + timeMinISO    + '&' +
+  FIELD_SHOWDELETED   + '=' + showDeleted   + '&' +
+  FIELD_SINGLEEVENTS  + '=' + singleEvents  + '&' +
+  FIELD_MAXRESULTS    + '=' + maxResults;
+
+if (timeZone) {
+  request_url = request_url + '&' + FIELD_TIMEZONE + '=' + timeZone;
+}
+
+var prevStart; // use this variable to decide where to insert an <hr>
+
+// Send query
+$.ajax({
+  dataType: 'json',
+  url: request_url,
+  success: function(data) {
+    cal_data = data;
+    data['items'].forEach((item) => {
+
+      // parse data
+      var start         = new Date(item.start.dateTime);
+      var end           = new Date(item.end.dateTime);
+      var nowFlag       = false;
+      var classNow      = "";
+      var relativeTime  = "";
+
+      relativeTime = calcTime(now, start);
+
+      if (start < now && now < end) {
+        classNow = "event-now";
+        nowFlag = true;
+        relativeTime = "NOW";
+      }
+      else {
+        if (prevStart < now && start > now) {
+          $('#schedule #event-list').append('<hr>');
+        }
+      }
+
+      $('#schedule #event-list').append('<li class="event ' + classNow + '">' +
+      '<h2 class="event-summary">' +
+
+      // summary
+      item['summary']
+
+      + '<span class="event-start">' +
+
+      // relative time or NOW if the event is on going
+      relativeTime
+
+      + '</span>' +
+      '</h2>' +
+      
+      (( item['location'] &&
+        ('<span class="event-location">' +
+
+        // location
+        item['location']
+
+        + '</span>')
+      ) || "") +
+      
+      '</li>');
+
+      prevStart = start;
+    });
+  }
+});
+
+function calcTime(current, previous) {
+
+    var msPerMinute = 60 * 1000;
+    var msPerHour = msPerMinute * 60;
+    var msPerDay = msPerHour * 24;
+    var msPerMonth = msPerDay * 30;
+    var msPerYear = msPerDay * 365;
+
+    var elapsed = current - previous;
+
+    var tense = elapsed > 0 ? "ago" : "later";
+
+    elapsed = Math.abs(elapsed);
+
+    if (elapsed < msPerMinute) {
+         return Math.round(elapsed/1000) + ' seconds ' + tense;
+    }
+
+    else if (elapsed < msPerHour) {
+         return Math.round(elapsed/msPerMinute) + ' minutes ' + tense;
+    }
+
+    else if (elapsed < msPerDay ) {
+         return Math.round(elapsed/msPerHour ) + ' hours ' + tense;
+    }
+
+    else if (elapsed < msPerMonth) {
+        return 'approximately ' + Math.round(elapsed/msPerDay) + ' days ' + tense;
+    }
+
+    else if (elapsed < msPerYear) {
+        return 'approximately ' + Math.round(elapsed/msPerMonth) + ' months ' + tense;
+    }
+
+    else {
+        return 'approximately ' + Math.round(elapsed/msPerYear ) + ' years' +
+        tense;
+    }
+}
+
+</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
 </script>
@@ -797,10 +823,6 @@
 <!-- End: Injected MathJax -->
 <!-- hexo-inject:end -->
 
-
-
-  
-  
 
 
 
