@@ -704,7 +704,8 @@ if (timeZone) {
   request_url = request_url + '&' + FIELD_TIMEZONE + '=' + timeZone;
 }
 
-var queryLoop = window.setInterval(fetchData, 3600);
+//var queryLoop = window.setInterval(fetchData, 3600);
+fetchData();
 
 function fetchData() {
   $.ajax({
@@ -745,7 +746,7 @@ function fetchData() {
         // summary
         item['summary']
 
-        + '<span class="event-start">' +
+        + '<span class="event-relative-time">' +
 
         // relative time or NOW if the event is on going
         relativeTime
@@ -754,7 +755,7 @@ function fetchData() {
         '</h2>' +
         
         (( item['location'] &&
-          ('<span class="event-location">' +
+          ('<span class="event-location event-details">' +
 
           // location
           item['location']
@@ -762,6 +763,12 @@ function fetchData() {
           + '</span>')
         ) || "") +
         
+        '<span class="event-duration event-details">' +
+
+        // duration
+        start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + " - " + end.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+
+        + '</span>' +
         '</li>');
 
         prevEnd = end;
