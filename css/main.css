@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d4ff54;
+  background: #ff08aa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2208,6 +2208,9 @@ a.search-result {
 }
 #schedule ul#event-list li.event span.event-details.event-duration:before {
   content: '\f017';
+}
+#schedule ul#event-list li.event-past {
+  opacity: 0.8;
 }
 #schedule ul#event-list li.event-now {
   background: #222;

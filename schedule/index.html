@@ -724,23 +724,27 @@ function fetchData() {
         var start         = new Date(item.start.dateTime);
         var end           = new Date(item.end.dateTime);
         var nowFlag       = false;
-        var classNow      = "";
+        var statusClass      = "";
         var relativeTime  = "";
 
         relativeTime = calcTime(now, start);
 
         if (start < now && now < end) {
-          classNow = "event-now";
+          statusClass = "event-now";
           nowFlag = true;
           relativeTime = "NOW";
         }
-        else {
+        else if (end < now) {
+          statusClass = "event-past";
+        }
+        else{
+          statusClass = "event-future";
           if (prevEnd < now && start > now) {
             $('#schedule #event-list').append('<hr>');
           }
         }
 
-        $('#schedule #event-list').append('<li class="event ' + classNow + '">' +
+        $('#schedule #event-list').append('<li class="event ' + statusClass + '">' +
         '<h2 class="event-summary">' +
 
         // summary
