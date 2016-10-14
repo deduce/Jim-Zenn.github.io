@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #db61f0;
+  background: #6250c1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2177,23 +2177,31 @@ a.search-result {
   margin-right: 25px;
   color: #bbb;
 }
-#schedule ul#event-list li.event span.event-start {
+#schedule ul#event-list li.event span.event-relative-time {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
   padding-left: 12px;
   color: #bbb;
 }
-#schedule ul#event-list li.event span.event-location {
+#schedule ul#event-list li.event span.event-details {
+  display: block;
   color: #bbb;
 }
-#schedule ul#event-list li.event span.event-location:before {
+#schedule ul#event-list li.event span.event-details:before {
   display: inline-block;
+  width: 14px;
   font-family: FontAwesome;
-  content: '\f041';
+  text-align: center;
   margin-right: 9px;
   margin-left: 32px;
   color: #bbb;
+}
+#schedule ul#event-list li.event span.event-details.event-location:before {
+  content: '\f041';
+}
+#schedule ul#event-list li.event span.event-details.event-duration:before {
+  content: '\f017';
 }
 #schedule ul#event-list li.event-now {
   background: #222;
