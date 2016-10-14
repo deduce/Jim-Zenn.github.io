@@ -71,4 +71,3 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/Jim-Zenn/Jim-Zenn.github.io
-
