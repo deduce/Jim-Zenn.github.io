@@ -704,65 +704,71 @@ if (timeZone) {
   request_url = request_url + '&' + FIELD_TIMEZONE + '=' + timeZone;
 }
 
-var prevStart = 0; // use this variable to decide where to insert an <hr>
+var queryLoop = window.setInterval(fetchData, 3600);
 
-// Send query
-$.ajax({
-  dataType: 'json',
-  url: request_url,
-  success: function(data) {
-    cal_data = data;
-    data['items'].forEach((item) => {
+function fetchData() {
+  $.ajax({
+    dataType: 'json',
+    url: request_url,
+    success: function(data) {
 
-      // parse data
-      var start         = new Date(item.start.dateTime);
-      var end           = new Date(item.end.dateTime);
-      var nowFlag       = false;
-      var classNow      = "";
-      var relativeTime  = "";
+      // clean the list
+      $('#event-list').html("");
+      var prevEnd = 0; // use this variable to decide where to insert an <hr>
 
-      relativeTime = calcTime(now, start);
+      cal_data = data;
+      data['items'].forEach((item) => {
 
-      if (start < now && now < end) {
-        classNow = "event-now";
-        nowFlag = true;
-        relativeTime = "NOW";
-      }
-      else {
-        if (prevStart < now && start > now) {
-          $('#schedule #event-list').append('<hr>');
+        // parse data
+        var start         = new Date(item.start.dateTime);
+        var end           = new Date(item.end.dateTime);
+        var nowFlag       = false;
+        var classNow      = "";
+        var relativeTime  = "";
+
+        relativeTime = calcTime(now, start);
+
+        if (start < now && now < end) {
+          classNow = "event-now";
+          nowFlag = true;
+          relativeTime = "NOW";
         }
-      }
+        else {
+          if (prevEnd < now && start > now) {
+            $('#schedule #event-list').append('<hr>');
+          }
+        }
 
-      $('#schedule #event-list').append('<li class="event ' + classNow + '">' +
-      '<h2 class="event-summary">' +
+        $('#schedule #event-list').append('<li class="event ' + classNow + '">' +
+        '<h2 class="event-summary">' +
 
-      // summary
-      item['summary']
+        // summary
+        item['summary']
 
-      + '<span class="event-start">' +
+        + '<span class="event-start">' +
 
-      // relative time or NOW if the event is on going
-      relativeTime
+        // relative time or NOW if the event is on going
+        relativeTime
 
-      + '</span>' +
-      '</h2>' +
-      
-      (( item['location'] &&
-        ('<span class="event-location">' +
+        + '</span>' +
+        '</h2>' +
+        
+        (( item['location'] &&
+          ('<span class="event-location">' +
 
-        // location
-        item['location']
+          // location
+          item['location']
 
-        + '</span>')
-      ) || "") +
-      
-      '</li>');
+          + '</span>')
+        ) || "") +
+        
+        '</li>');
 
-      prevStart = start;
-    });
-  }
-});
+        prevEnd = end;
+      });
+    }
+  });
+}
 
 function calcTime(current, previous) {
 
@@ -778,11 +784,7 @@ function calcTime(current, previous) {
 
     elapsed = Math.abs(elapsed);
 
-    if (elapsed < msPerMinute) {
-         return Math.round(elapsed/1000) + ' seconds ' + tense;
-    }
-
-    else if (elapsed < msPerHour) {
+    if (elapsed < msPerHour) {
          return Math.round(elapsed/msPerMinute) + ' minutes ' + tense;
     }
 
