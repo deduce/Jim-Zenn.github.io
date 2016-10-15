@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff08aa;
+  background: #ab0f83;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2210,11 +2210,18 @@ a.search-result {
   content: '\f017';
 }
 #schedule ul#event-list li.event-past {
-  opacity: 0.8;
+  background: #fcfcfc;
+}
+#schedule ul#event-list li.event-past > * {
+  opacity: 0.6;
+}
+#schedule ul#event-list li.event-past h2.event-summary:before {
+  color: #dfdfdf;
 }
 #schedule ul#event-list li.event-now {
   background: #222;
   color: #fff;
+  padding: 5px 0 5px 10px;
 }
 #schedule ul#event-list li.event-now h2.event-summary:before {
   -webkit-transform: scale(1.1);
