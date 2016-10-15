@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Montserrat', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Montserrat', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -919,7 +919,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Montserrat', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1008,7 +1008,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Montserrat', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1273,7 +1273,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Montserrat', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ab0f83;
+  background: #f6ff6f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2215,13 +2215,16 @@ a.search-result {
 #schedule ul#event-list li.event-past > * {
   opacity: 0.6;
 }
+#schedule ul#event-list li.event-past h2.event-summary {
+  color: #bbb;
+}
 #schedule ul#event-list li.event-past h2.event-summary:before {
   color: #dfdfdf;
 }
 #schedule ul#event-list li.event-now {
   background: #222;
   color: #fff;
-  padding: 5px 0 5px 10px;
+  padding: 15px 0 15px 10px;
 }
 #schedule ul#event-list li.event-now h2.event-summary:before {
   -webkit-transform: scale(1.1);
