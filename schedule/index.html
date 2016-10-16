@@ -705,7 +705,7 @@ var timeMin = new Date();
 var calId           = _n('jimzenn0@gmail.com')                ;
 var apiKey          = _n('AIzaSyCjcukcNCAjWnIlI8MNatepeUX0038HRTU')                ;
 var orderBy         = _n('')  || 'startTime';
-var offsetMax       = _n(  )  || 24         ;
+var offsetMax       = _n(  )  || 72         ;
 var offsetMin       = _n(  )  || 4          ;
 var timeZone        = _n(  )  || void 0     ;
 var showDeleted     = _n(  )  || 'false'    ;
@@ -808,7 +808,7 @@ function fetchData() {
         '<span class="event-duration event-details">' +
 
         // duration
-        start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + " - " + end.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+        start.toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute:'2-digit'}) + " - " + end.toLocaleTimeString([], {weekday:'short', hour: '2-digit', minute:'2-digit'})
 
         + '</span>' +
         '</li>');
