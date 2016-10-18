@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
-  <updated>2016-10-18T07:24:35.000Z</updated>
+  <updated>2016-10-18T07:27:28.000Z</updated>
   <id>http://blog.zealoft.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.zealoft.com/2016/10/13/You-Know-Where-to-Find-Me/"/>
     <id>http://blog.zealoft.com/2016/10/13/You-Know-Where-to-Find-Me/</id>
     <published>2016-10-14T00:23:54.000Z</published>
-    <updated>2016-10-18T07:24:35.000Z</updated>
+    <updated>2016-10-18T07:27:28.000Z</updated>
     
     <content type="html"><![CDATA[<img src="https://hd.unsplash.com/photo-1435527173128-983b87201f4d" class="full-image" alt="schedule">
 <p>Proudly living an open-sourced life.<br>Find out what I’m doing at <a href="http://schedule.zealoft.com/" target="_blank" rel="external">http://schedule.zealoft.com/</a>.</p>
@@ -34,7 +34,7 @@
 <p>Sincerely,</p>
 <p>Jim</p>
 <blockquote>
-<p>The code of the <a href="http://schedule.zealoft.com/" target="_blank" rel="external">schedule page</a> is going to be merged into the <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo theme NeXT</a>. If you want to read the detail of the implementation, check <a href="https://github.com/iissnan/hexo-theme-next/pull/1167/files#diff-a632191546f0a5eaa4e8e47f64b09e6c" target="_blank" rel="external">this page</a>. I apologize for not using English in this pull request, but I think I write sufficient comments in the code. Talk to me if you have any questions or comments.</p>
+<p>The code of the <a href="http://schedule.zealoft.com/" target="_blank" rel="external">schedule page</a> is going to be merged into the <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo theme NeXT</a>. If you want to read the detail of the implementation, check out <a href="https://github.com/iissnan/hexo-theme-next/pull/1167/files#diff-a632191546f0a5eaa4e8e47f64b09e6c" target="_blank" rel="external">this page</a>. I apologize for not using English in this pull request, but I think I write sufficient comments in the code. Leave some comments if you have any question.</p>
 </blockquote>
 ]]></content>
     
