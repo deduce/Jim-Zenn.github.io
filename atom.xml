@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
-  <updated>2016-10-17T17:06:54.000Z</updated>
+  <updated>2016-10-18T06:36:45.000Z</updated>
   <id>http://blog.zealoft.com/</id>
   
   <author>
@@ -20,18 +20,22 @@
     <link href="http://blog.zealoft.com/2016/10/13/You-Know-Where-to-Find-Me/"/>
     <id>http://blog.zealoft.com/2016/10/13/You-Know-Where-to-Find-Me/</id>
     <published>2016-10-14T00:23:54.000Z</published>
-    <updated>2016-10-17T17:06:54.000Z</updated>
+    <updated>2016-10-18T06:36:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>Find me at <a href="http://schedule.zealoft.com/" target="_blank" rel="external">http://schedule.zealoft.com/</a>.</p>
 <a id="more"></a>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28930654&auto=1&height=66"></iframe>
 
-<p>I’ve been thinking for a while about writing a page to sharing my life.</p>
-<p>I share my schedule so that people know where I am, what I am doing and what I am going to do. Therefore, whenever you want to join my life, you always know when and where to. Want to watch a movie with me? Sure, check my schedule: If I’m free, I’m free. See I’m running and want to join? Great, I would love to have someone run with me. You can add new events into my life. Isn’t it fun? My life is now open-sourced. It’s like a git repository: you can fork it or submit a pull request, and I can merge your “code” into my master branch.</p>
+<p>I’ve been thinking for a while about sharing my life schedule.</p>
+<p>I share my schedule so that people know where I am, what I am doing and what I am going to do. Whenever you want to join my life, you always know when and where to. Want to watch a movie with me? Sure, check my schedule: If I’m free, I’m free. See I’m running and want to join? Great, I would love to have someone run with me. You can add new events into my life.</p>
+<p>Isn’t it fun? My life is now open-sourced. It’s like a git repository: you can fork it or submit a pull request, and I can merge your “code” into my master branch.</p>
 <p>It also helps me to keep up with my schedule. Many planned events are not accomplished just because I feel lazy. However, I need to keep my words to make this page credible. I promise that you will find me as this page indicates.</p>
-<p>I wish to receive your pull requests soon.</p>
+<p>I wish to receive your <em>pull requests</em> soon.</p>
 <p>Sincerely,</p>
 <p>Jim</p>
+<blockquote>
+<p>The code of the <a href="http://schedule.zealoft.com/" target="_blank" rel="external">schedule page</a> is going to be merged into the <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo theme NeXT</a>. If you want to read the detail of the implementation, check <a href="https://github.com/iissnan/hexo-theme-next/pull/1167/files#diff-a632191546f0a5eaa4e8e47f64b09e6c" target="_blank" rel="external">this page</a>. I apologize for not using English in this pull request, but I think I write sufficient comments in the code. Talk to me if you have any questions or comments.</p>
+</blockquote>
 ]]></content>
     
     <summary type="html">
