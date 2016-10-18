@@ -45,12 +45,6 @@
   
 
   
-    
-      
-    
-
-    
-  
 
   
 
@@ -67,7 +61,7 @@
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Source Han Sans:300,300italic,400,400italic,700,700italic|Montserrat:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Montserrat:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -226,7 +220,7 @@
         <li class="menu-item menu-item-schedule">
           <a href="/schedule" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
             Schedule
           </a>
@@ -705,6 +699,7 @@ var timeMin = new Date();
 var calId           = _n('jimzenn0@gmail.com')                ;
 var apiKey          = _n('AIzaSyCjcukcNCAjWnIlI8MNatepeUX0038HRTU')                ;
 var orderBy         = _n('')  || 'startTime';
+var showLocation    = _n('true')  || 'false'    ;
 var offsetMax       = _n(  )  || 72         ;
 var offsetMin       = _n(  )  || 4          ;
 var timeZone        = _n(  )  || void 0     ;
@@ -745,73 +740,89 @@ if (timeZone) {
 fetchData();
 var queryLoop = setInterval(fetchData, 60000);
 
+// Send query
+$.ajax({
+  dataType: 'json',
+  url: request_url,
+  success: function(data) {
+    cal_data = data;
+    data['items'].forEach((item) => {
+
+      // parse data
+      var start         = new Date(item.start.dateTime);
+      var end           = new Date(item.end.dateTime);
+      var nowFlag       = false;
+      var classNow      = "";
+      var relativeTime  = "";
+
+      relativeTime = calcTime(now, start);
+
+      if (start < now && now < end) {
+        classNow = "event-now";
+        nowFlag = true;
+        relativeTime = "NOW";
+      }
+      else {
+        if (prevStart < now && start > now) {
+          $('#schedule #event-list').append('<hr>');
+        }
+      }
+
+      $('#schedule #event-list').append('<li class="event ' + classNow + '">' +
+      '<h2 class="event-summary">' +
+
+      // summary
+      item['summary']
+
+      + '<span class="event-start">' +
+
+      // relative time or NOW if the event is on going
+      relativeTime
+
+      + '</span>' +
+      '</h2>' +
+      
+      (( item['location'] &&
+        ('<span class="event-location">' +
+
+        // location
+        item['location']
+
+        + '</span>')
+      ) || "") +
+      
+      '</li>');
+
+      prevStart = start;
+    });
+  }
+});
+>>>>>>> add Google calendar support and schedule page
+
 function fetchData() {
   $.ajax({
     dataType: 'json',
     url: request_url,
     success: function(data) {
 
-      // clean the list
-      $('#event-list').html("");
-      var prevEnd = 0; // use this variable to decide where to insert an <hr>
+      $eventList = $('#schedule #event-list');
 
-      cal_data = data;
-      data['items'].forEach((item) => {
+      // clean the event list
+      $eventList.html("");
+      var prevEnd = 0; // used to decide where to insert an <hr>
+
+      data['items'].forEach((event) => {
 
         // parse data
-        var start         = new Date(item.start.dateTime);
-        var end           = new Date(item.end.dateTime);
-        var nowFlag       = false;
-        var statusClass      = "";
-        var relativeTime  = "";
+        var start = new Date(event.start.dateTime);
+        var end   = new Date(event.end.dateTime);
 
-        relativeTime = calcTime(now, start);
+        tense = judgeTense(now, start, end); // 0:now 1:future -1:past
 
-        if (start < now && now < end) {
-          statusClass = "event-now";
-          nowFlag = true;
-          relativeTime = "NOW";
-        }
-        else if (end < now) {
-          statusClass = "event-past";
-        }
-        else{
-          statusClass = "event-future";
-          if (prevEnd < now && start > now) {
-            $('#schedule #event-list').append('<hr>');
-          }
-        }
+        if (tense == 1 && prevEnd < now) $eventList.append('<hr>');
 
-        $('#schedule #event-list').append('<li class="event ' + statusClass + '">' +
-        '<h2 class="event-summary">' +
-
-        // summary
-        item['summary']
-
-        + '<span class="event-relative-time">' +
-
-        // relative time or NOW if the event is on going
-        relativeTime
-
-        + '</span>' +
-        '</h2>' +
-        
-        (( item['location'] &&
-          ('<span class="event-location event-details">' +
-
-          // location
-          item['location']
-
-          + '</span>')
-        ) || "") +
-        
-        '<span class="event-duration event-details">' +
-
-        // duration
-        start.toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute:'2-digit'}) + " - " + end.toLocaleTimeString([], {weekday:'short', hour: '2-digit', minute:'2-digit'})
-
-        + '</span>' +
-        '</li>');
+        eventDOM = buildEventDOM(tense, event);
+        $eventList.append(eventDOM);
 
         prevEnd = end;
       });
@@ -819,40 +830,95 @@ function fetchData() {
   });
 }
 
-function calcTime(current, previous) {
+function getRelativeTime(current, previous) {
+  var msPerMinute = 60 * 1000;
+  var msPerHour = msPerMinute * 60;
+  var msPerDay = msPerHour * 24;
+  var msPerMonth = msPerDay * 30;
+  var msPerYear = msPerDay * 365;
 
-    var msPerMinute = 60 * 1000;
-    var msPerHour = msPerMinute * 60;
-    var msPerDay = msPerHour * 24;
-    var msPerMonth = msPerDay * 30;
-    var msPerYear = msPerDay * 365;
+  var elapsed = current - previous;
+  var tense = elapsed > 0 ? "ago" : "later";
 
-    var elapsed = current - previous;
+  elapsed = Math.abs(elapsed);
 
-    var tense = elapsed > 0 ? "ago" : "later";
+  if      ( elapsed < msPerHour  ) {
+    return Math.round(elapsed/msPerMinute) + ' minutes ' + tense;
+  }
+  else if ( elapsed < msPerDay   ) {
+    return Math.round(elapsed/msPerHour) + ' hours ' + tense;
+  }
+  else if ( elapsed < msPerMonth ) {
+    return 'about ' + Math.round(elapsed/msPerDay) + ' days ' + tense;
+  }
+  else if ( elapsed < msPerYear  ) {
+    return 'about ' + Math.round(elapsed/msPerMonth) + ' months ' + tense;
+  }
+  else {
+    return 'about' + Math.round(elapsed/msPerYear) + ' years' + tense;
+  }
+}
 
-    elapsed = Math.abs(elapsed);
+function judgeTense(now, eventStart, eventEnd) {
+  if      (eventEnd   < now)  { return -1; }
+  else if (eventStart > now)  { return  1; }
+  else                        { return  0; }
+}
 
-    if (elapsed < msPerHour) {
-         return Math.round(elapsed/msPerMinute) + ' minutes ' + tense;
-    }
+function buildEventDOM(tense, event) {
+  var tenseClass = "";
+  var start      = new Date(event.start.dateTime);
+  var end        = new Date(event.end.dateTime);
+  switch(tense) {
+    case 0 : // now
+      tenseClass = "event-now";
+      break;
+    case 1 : // future
+      tenseClass = "event-past";
+      break;
+    case -1: // past
+      tenseClass = "event-future";
+      break;
+    default:
+      throw "Time data error";
+  }
+  durationFormat = {
+    weekday: 'short',
+    hour: '2-digit',
+    minute:'2-digit'
+  };
+  relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
+  durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
+                end.toLocaleTimeString([], durationFormat);
 
-    else if (elapsed < msPerDay ) {
-         return Math.round(elapsed/msPerHour ) + ' hours ' + tense;
-    }
+  liOpen                = `<li class="event ${tenseClass}">`;
+  liClose               = `</li>`;
+  h2Open                = `<h2 class="event-summary">`;
+  h2Close               = `</h2>`;
 
-    else if (elapsed < msPerMonth) {
-        return 'approximately ' + Math.round(elapsed/msPerDay) + ' days ' + tense;
-    }
+  locationDOM     = "";
+  if (showLocation && event['location']) {
+    locationDOM   = `<span class="event-location event-details">
+                      ${event['location']}
+                     </span>`;
+  }
+  relativeTimeDOM = `<span class="event-relative-time">
+                      ${relativeTimeStr}
+                     </span>`;
+  durationDOM     = `<span class="event-duration event-details">
+                      ${durationStr}
+                     </span>`;
 
-    else if (elapsed < msPerYear) {
-        return 'approximately ' + Math.round(elapsed/msPerMonth) + ' months ' + tense;
-    }
-
-    else {
-        return 'approximately ' + Math.round(elapsed/msPerYear ) + ' years' +
-        tense;
-    }
+  eventContent =
+    liOpen +
+      h2Open +
+        event['summary'] +
+        relativeTimeDOM+
+      h2Close +
+      locationDOM +
+      durationDOM +
+    liClose;
+  return eventContent;
 }
 
 </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
