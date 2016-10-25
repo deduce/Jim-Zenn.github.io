@@ -1564,7 +1564,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff87e8;
+  background: #5398cf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2709,6 +2709,12 @@ body {
     text-align: justify;
   }
 }
+#header[itemtype="//schema.org/WPHeader"] {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
 #header .custom-logo-site-title ::selection {
   background-color: #e82c0c;
 }
@@ -2719,21 +2725,23 @@ body {
   text-align: center;
   padding-left: 0.15em;
   font-size: 24px;
-  transition: letter-spacing 0.4s ease-in-out;
+  transition: letter-spacing 0.4s ease-out;
 }
 #header .site-meta .site-title:hover {
   letter-spacing: 0.4em;
 }
 #header #menu .menu-item a {
+  font-size: 13px;
   font-family: "Montserrat";
   text-transform: uppercase;
   padding: 13px 20px;
   letter-spacing: 0.1em;
   color: #ccc;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.4s ease-in-out, letter-spacing 0.4s ease-out;
 }
 #header #menu .menu-item a:hover {
   background-color: transparent;
+  letter-spacing: 0.15em;
   color: #333;
 }
 #header #menu .menu-item-active a:after {
@@ -2744,6 +2752,10 @@ body {
   font-size: 18px;
   font-weight: 600;
   margin: 3px 0;
+}
+#header #menu .menu-item-active a:hover {
+  background-color: #f9f9f9;
+  letter-spacing: 0.1em;
 }
 #header #menu .menu-item-active a:before {
   content: "//";
