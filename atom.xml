@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ZEALOFT</title>
-  <subtitle>在这里阅读一个有趣的人</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
