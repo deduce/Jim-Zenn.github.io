@@ -1564,7 +1564,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5398cf;
+  background: #831dff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2709,11 +2709,27 @@ body {
     text-align: justify;
   }
 }
-#header[itemtype="//schema.org/WPHeader"] {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  top: 0;
+@media (max-width: 992px) {
+  #header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+  }
+  #header .header-inner {
+    overflow: visible;
+  }
+  #header .header-inner .site-meta {
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    transition: box-shadow 0.4s linear;
+  }
+  .container {
+    position: relative;
+    top: 76px;
+  }
+  .headband {
+    display: none;
+  }
 }
 #header .custom-logo-site-title ::selection {
   background-color: #e82c0c;
