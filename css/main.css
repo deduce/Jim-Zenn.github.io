@@ -1564,7 +1564,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #05bbff;
+  background: #ff87e8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2709,6 +2709,9 @@ body {
     text-align: justify;
   }
 }
+#header .custom-logo-site-title ::selection {
+  background-color: #e82c0c;
+}
 #header .site-meta .site-title {
   background: transparent;
   font-size: 20px;
@@ -2716,12 +2719,22 @@ body {
   text-align: center;
   padding-left: 0.15em;
   font-size: 24px;
+  transition: letter-spacing 0.4s ease-in-out;
+}
+#header .site-meta .site-title:hover {
+  letter-spacing: 0.4em;
 }
 #header #menu .menu-item a {
   font-family: "Montserrat";
   text-transform: uppercase;
+  padding: 13px 20px;
   letter-spacing: 0.1em;
   color: #ccc;
+  transition: color 0.2s ease-in-out;
+}
+#header #menu .menu-item a:hover {
+  background-color: transparent;
+  color: #333;
 }
 #header #menu .menu-item-active a:after {
   display: none;
@@ -2730,13 +2743,14 @@ body {
   color: #222;
   font-size: 18px;
   font-weight: 600;
+  margin: 3px 0;
 }
 #header #menu .menu-item-active a:before {
   content: "//";
   font-family: "Montserrat";
   letter-spacing: -5px;
   margin-right: 10px;
-  color: #ef2f11;
+  color: #e82c0c;
 }
 .ds-thread #ds-reset .ds-powered-by,
 .ds-thread #ds-reset .ds-replybox .ds-post-toolbar .ds-toolbar-buttons,
@@ -2756,7 +2770,10 @@ body {
 }
 #sidebar .feed-link a {
   font-family: "Montserrat";
-  color: #ef2f11;
+  color: #e82c0c;
+}
+#sidebar .feed-link a * {
+  color: #e82c0c;
 }
 .post-more-link {
   font-family: "Montserrat";
