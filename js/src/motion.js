@@ -205,17 +205,17 @@ $(document).ready(function () {
         getMistLineSettings($logoLineBottom, '-100%')
       );
 
-      hasElement($title) && sequence.push({
-        e: $title,
-        p: {opacity: 1, top: 0},
-        o: { duration: 200 }
-      });
+      // hasElement($title) && sequence.push({
+      //   e: $title,
+      //   p: {opacity: 1, top: 0},
+      //   o: { duration: 200 }
+      // });
 
-      hasElement($subtitle) && sequence.push({
-        e: $subtitle,
-        p: {opacity: 1, top: 0},
-        o: {duration: 200}
-      });
+      // hasElement($subtitle) && sequence.push({
+      //   e: $subtitle,
+      //   p: {opacity: 1, top: 0},
+      //   o: {duration: 200}
+      // });
 
       if (sequence.length > 0) {
         sequence[sequence.length - 1].o.complete = function () {
