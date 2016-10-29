@@ -1564,7 +1564,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8b1cff;
+  background: #9d25ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2709,19 +2709,29 @@ body {
     text-align: justify;
   }
 }
+#header {
+  font-family: "Montserrat";
+}
 #header .header-inner {
   overflow: visible;
 }
-@media (max-width: 992px) {
+#sidebar {
+  font-family: "Montserrat";
+}
+@media (max-width: 991px) {
   #header {
     position: fixed;
     width: 100%;
     z-index: 1000;
     top: 0;
   }
+  #header .header-inner .site-nav-toggle {
+    top: 10px;
+  }
   #header .header-inner .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
     transition: box-shadow 0.4s linear;
+    padding: 10px 0;
   }
   .container {
     position: relative;
@@ -2743,14 +2753,14 @@ body {
   text-align: center;
   padding-left: 0.15em;
   font-size: 24px;
-  transition: letter-spacing 0.4s ease-out;
+  z-index: 2;
 }
-#header .site-meta .site-title:hover {
-  letter-spacing: 0.4em;
+#header #menu .menu-item-tags,
+#header #menu .menu-item-categories {
+  display: none;
 }
 #header #menu .menu-item a {
-  font-size: 13px;
-  font-family: "Montserrat";
+  font-size: 14px;
   text-transform: uppercase;
   padding: 13px 20px;
   letter-spacing: 0.1em;
@@ -2779,7 +2789,6 @@ body {
 }
 #header #menu .menu-item-active a:before {
   content: "//";
-  font-family: "Montserrat";
   letter-spacing: -5px;
   margin-right: 10px;
   color: #e82c0c;
@@ -2797,17 +2806,22 @@ body {
   display: none !important;
 }
 #sidebar .site-author-name {
-  font-family: "Montserrat";
   text-transform: uppercase;
 }
 #sidebar .feed-link a {
-  font-family: "Montserrat";
   color: #e82c0c;
 }
 #sidebar .feed-link a * {
   color: #e82c0c;
 }
+#sidebar .site-state-item {
+  padding: 0 10px !important;
+}
 .post-more-link {
   font-family: "Montserrat";
   text-transform: uppercase;
+  font-weight: 300;
+}
+.post-more-link .btn {
+  border-radius: 0;
 }
