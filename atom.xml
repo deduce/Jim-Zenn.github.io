@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
-  <updated>2016-10-24T23:55:50.000Z</updated>
+  <updated>2016-10-30T02:23:36.000Z</updated>
   <id>http://blog.zealoft.com/</id>
   
   <author>
@@ -20,23 +20,23 @@
     <link href="http://blog.zealoft.com/2016/10/18/ML@B-interview/"/>
     <id>http://blog.zealoft.com/2016/10/18/ML@B-interview/</id>
     <published>2016-10-19T00:50:24.000Z</published>
-    <updated>2016-10-24T23:55:50.000Z</updated>
+    <updated>2016-10-30T02:23:36.000Z</updated>
     
     <content type="html"><![CDATA[<img src="http://blog.zealoft.com/images/ML@B.png" class="full-image" alt="Machine Learning @ Berkeley">
-<p>随着摩尔定律逼近极限，计算能力到达了一个新的高度；计算机技术的历史也翻开了新的一页：以人工智能为中心的新时代已经拉开了序幕，继互联网、移动之后各行各业都将迎来新一轮革命。</p>
-<p>今天我走入计算机强校 UC Berkeley，对话 <a href="https://ml.berkeley.edu" target="_blank" rel="external">ML@B (Machine Learning @ Berkeley)</a> 的两位创始人 Ted Xiao 和 Gautham Kesineni，他们同时也是 <a href="http://bair.berkeley.edu" target="_blank" rel="external">BAIR (Berkeley Artificial Intelligence Research Lab)</a> 的学生。<br><a id="more"></a></p>
+<p>随着摩尔定律逼近极限，电脑性能到达了一个新的高度。信息技术的历史将翻开新的一页：以人工智能为中心的新时代已经拉开了序幕，将带来继互联网、智能手机之后的新一轮革命。</p>
+<p>在计算机强校 UC Berkeley，我有幸对话 <a href="https://ml.berkeley.edu" target="_blank" rel="external">ML@B (Machine Learning @ Berkeley)</a> 的两位创始人 Ted Xiao 和 Gautham Kesineni，他们同时也是 <a href="http://bair.berkeley.edu" target="_blank" rel="external">BAIR (Berkeley Artificial Intelligence Research Lab)</a> 的学生。<br><a id="more"></a></p>
 <img src="http://zealoft.com/images/coloring-grayscale-image.jpg" class="full-image" alt="colorizing grayscale images" title="引起大量关注的为黑白图片上色的算法正是来自于 BAIR 实验室">
-<p>ML@B 创立仅仅不到一年，却已经与 GitHub, SAP, Intuit 等企业有了多次合作，也在 UC Berkeley 迅速收获大量关注。ML@B 致力于将机器学习普及到 UC Berkeley 的各个研究领域；他们自己也有许多机器学习相关项目。比如他们现在正在使用机器学习为 GitHub 加强用于识别项目语言的算法；他们的研究部门也在开发新的基于 TCP 协议的并行机器学习项目 Berkeley Brain。在这次访谈中，我们将他们在公司合作与学术经历中得到的对机器学习领域现在与未来的洞见。</p>
+<p>ML@B 创立不到一年，已经与 GitHub, SAP, Intuit 等企业有了多次合作，也在 UC Berkeley 迅速收获大量关注。他们致力于将机器学习普及到 UC Berkeley 的各个研究领域。与此同时，他们也在进行机器学习相关的研究。他们正在为 GitHub 研究识别项目语言的机器学习算法，将在完成后投入实际使用；他们也在在开发新的基于 TCP 协议的并行机器学习项目 Open Brain。在这次访谈中，我们将听听他们在公司合作与学术经历中得到的洞见。</p>
 <h2 id="数据，企业机器学习的命脉"><a href="#数据，企业机器学习的命脉" class="headerlink" title="数据，企业机器学习的命脉"></a>数据，企业机器学习的命脉</h2><p>机器学习有两个必需的要素：计算能力和大量实际数据。</p>
-<p>获取强大的计算能力如今已经不再是一件难事。由于 <a href="https://cloud.google.com/" target="_blank" rel="external">Google Cloud Platform</a>、 <a href="https://azure.microsoft.com/" target="_blank" rel="external">Microsoft Azure</a>、 <a href="https://aws.amazon.com/" target="_blank" rel="external">Amazon Web Services</a> 等平台趋于成熟，大大小小的数据体量都能够很好的处理。</p>
-<p>关于数据，情况却有所不同。随着机器学习受到的关注越来越多，其社区支持也不断壮大。对于科研人员和学生而言，当下可以称得上是机器学习研究的黄金时代：网络上有了大量公开的数据；许多大公司也释出了许多优质数据库。关于一个具体的研究问题，甚至已经有了标准数据库（如 <a href="http://yann.lecun.com/exdb/mnist/" target="_blank" rel="external">The MNIST Database</a>）用于研究和测试算法性能。</p>
-<p>但是对于真正的企业而言，针对一个具体的问题，没有足够体量的数据是无法进行机器学习的。Gautham 告诉爱范儿，就目前而言，数据造成的企业差距还没有那么明显；但是有一天，数据也极可能成为一种壁垒；而这一天已经在慢慢接近。</p>
+<p>现在获取高性能计算能力的便捷程度在几年前是无法想象的。过去，想要做高性能运算，首先要先去自己组一个高性能服务器，价格极其高昂不说，还要花大量时间和精力去组装、维护。几年前，刀锋服务器兴起，许多实验室花费数百万自建高性能服务器集群。但现在，有了 <a href="https://cloud.google.com/" target="_blank" rel="external">Google Cloud Platform</a>、 <a href="https://azure.microsoft.com/" target="_blank" rel="external">Microsoft Azure</a>、 <a href="https://aws.amazon.com/" target="_blank" rel="external">Amazon Web Services</a> 等 IaaS (Infrastructure as a Service) 等成熟的高性能、可伸缩的计算平台，不仅价格按时计算，也省去了自己维护的麻烦，成本大大降低。</p>
+<p>随着机器学习受到的关注越来越多，其社区支持也不断壮大。网络上有了大量公开数据，种类也极其丰富；许多大公司也秉着开源精神，释出了许多优质数据库。关于一些具体的研究问题，甚至有标准数据库（如 <a href="http://yann.lecun.com/exdb/mnist/" target="_blank" rel="external">The MNIST Database</a>）用于研究或测试算法性能。</p>
+<p>对于科研人员和学生而言，当下可以称得上是机器学习研究的黄金时代。然而对于真正的企业而言，针对一个具体的问题，没有足够体量的数据是无法进行机器学习的。Gautham 告诉爱范儿，就目前而言，数据造成的企业差距还没有那么明显；但是有一天，数据也极可能成为一种壁垒；而这一天已经在慢慢接近。</p>
 <h2 id="从机器人到人工智能，越来越多工作将被取代"><a href="#从机器人到人工智能，越来越多工作将被取代" class="headerlink" title="从机器人到人工智能，越来越多工作将被取代"></a>从机器人到人工智能，越来越多工作将被取代</h2><p>我们必须面对这样一个现实：机器正在将逐步取代人类的工作。</p>
-<p>过去，机器取代的更多是机械重复的工作。即使没有人工智能，机器已经有可靠、经济、精度高、不疲劳、一次性投入持续产出等诸多优势。在<a href="http://www2.deloitte.com/content/dam/Deloitte/uk/Documents/uk-futures/london-futures-agiletown.pdf" target="_blank" rel="external">牛津大学 2014 年的报告</a>中，英国 35% 的工作将在未来十到二十年内被取代。这个过程已经开始发生，在富士康的流水线上，机器人已经开始取代传统工人的地位：今年五月，<a href="http://www.bbc.com/news/technology-36376966" target="_blank" rel="external">富士康用机器人替换了 60000 名工厂工人</a>。</p>
+<p>过去，机器取代的更多是机械重复的工作。即使没有人工智能，机器已经有可靠、经济、精度高、不疲劳、一次性投入持续产出等诸多优势。在<a href="http://www2.deloitte.com/content/dam/Deloitte/uk/Documents/uk-futures/london-futures-agiletown.pdf" target="_blank" rel="external">牛津大学一份 2014 年的报告</a>中，英国 35% 的工作将在未来十到二十年内被取代。这个过程已经开始发生，在富士康的流水线上，机器人已经开始取代传统工人的地位：今年五月，<a href="http://www.bbc.com/news/technology-36376966" target="_blank" rel="external">富士康用机器人替换了 60000 名工厂工人</a>。</p>
 <p>如今加上人工智能的技术加持，机器更有了随机应变和自主决策的能力。一个标志性的事件就是 AlphaGo 与李世石的人机大战，这一战标志着人工智在复杂决策层面，已经有了与人类旗鼓相当的能力。这标志着人工智能开始有能力取代有脑力决策参与的工作。首当其冲的就是司机行业，IT 企业摩拳擦掌，争相研发无人驾驶算法，许多公司已经研发出了较为成熟的技术。无人驾驶替代传统司机已指日可待，在 Uber 和 Lyft 的对于未来的规划蓝图中，绝大部分司机也将在不久的将来被自动驾驶汽车取代。仍然存有变数的只是具体实施细则而已。</p>
 <img src="http://zealoft.com/images/lyft-2017-2022.png" class="full-image" alt="lyft's five-year plan" title="Lyft 的五年计划中，人类司机的占比将慢慢下降">
 <p>司机当然不会是唯一收到冲击的行业：但凡有着相对简单决策规则的工作都会受到影响。而随着人工智能的水平的不断提高，人工智能可以取代的岗位将越来越多。这对人类到底是福是祸？两位创始人表示乐观，因为这意味着人类可以将时间花在更多更需要高级智能的工作上，而不是浪费时间机械重复。但这也表示，未来工作的教育门槛可能会更高。</p>
-<h2 id="设计者不知道人工智能做出决策的原因，但没有关系"><a href="#设计者不知道人工智能做出决策的原因，但没有关系" class="headerlink" title="设计者不知道人工智能做出决策的原因，但没有关系"></a>设计者不知道人工智能做出决策的原因，但没有关系</h2><p>人工智能如此优秀，是因为人工智能通过大量数据的输入，计算了数据内在的规律；在人工智能做出决策时，它只是将输入放入经验模型进行计算而得出输出。稍对神经网络算法有一些理解的人们知道，随着神经网络层数的增多，模型也就变得极为复杂。从将近上百层隐含层中，是很难直观地了解人工智能做出的决策的原因的。</p>
+<h2 id="设计者不知道人工智能做出决策的原因，但没有关系"><a href="#设计者不知道人工智能做出决策的原因，但没有关系" class="headerlink" title="设计者不知道人工智能做出决策的原因，但没有关系"></a>设计者不知道人工智能做出决策的原因，但没有关系</h2><p>人工智能如此优秀，是因为人工智能通过大量数据的输入，猜测出数据内在的规律。在人工智能做出决策时，它只是将输入放入经验模型进行计算而得出输出。稍对神经网络算法有一些理解的人们知道，随着神经网络层数的增多，模型也就变得极为复杂。从将近上百层隐含层中，是很难直观地了解人工智能做出的决策的原因的。</p>
 <p>Ted 告诉我，如果一个人自己通过机器学习建立了一个模型，模型的运行效果极好，而设计者却无法直观的理解为什么，这确实想想都有些可怕。”现在在 Stanford 和 Berkeley，许多人在努力将建立的大型模型视觉化，努力弄清楚中间到底发生了什么，让他们变得更加能够被理解。”</p>
 <p>而 Gautham 则提出了不一样的见解。他认为，总有一天，机器学习训练出来的人工智能会变得极其复杂，以至于想要彻底弄清楚这个模型的工作原理是几乎不可能的。”我们应该学会习惯这种情况，”他举了个例子，”比如今天一个大型机组，我们也并不清楚每一台具体在算什么，但是我们把握着它的整体动向。机器学习也是一样，虽然我们不清楚其中的具体每一层做的是什么，这个模型的输入和输出却是清楚的。”</p>
 <p>确实，在我们生活中，处处都是黑盒。在使用一个网站的时候，我们并不追究网站的实现方式；写网站的工程师也并不需要知道网站框架的每一个细节。我们已经生活在这种可控的未知里。</p>
@@ -47,8 +47,8 @@
     <summary type="html">
     
       &lt;img src=&quot;http://blog.zealoft.com/images/ML@B.png&quot; class=&quot;full-image&quot; alt=&quot;Machine Learning @ Berkeley&quot; /&gt;
-&lt;p&gt;随着摩尔定律逼近极限，计算能力到达了一个新的高度；计算机技术的历史也翻开了新的一页：以人工智能为中心的新时代已经拉开了序幕，继互联网、移动之后各行各业都将迎来新一轮革命。&lt;/p&gt;
-&lt;p&gt;今天我走入计算机强校 UC Berkeley，对话 &lt;a href=&quot;https://ml.berkeley.edu&quot;&gt;ML@B (Machine Learning @ Berkeley)&lt;/a&gt; 的两位创始人 Ted Xiao 和 Gautham Kesineni，他们同时也是 &lt;a href=&quot;http://bair.berkeley.edu&quot;&gt;BAIR (Berkeley Artificial Intelligence Research Lab)&lt;/a&gt; 的学生。&lt;br&gt;
+&lt;p&gt;随着摩尔定律逼近极限，电脑性能到达了一个新的高度。信息技术的历史将翻开新的一页：以人工智能为中心的新时代已经拉开了序幕，将带来继互联网、智能手机之后的新一轮革命。&lt;/p&gt;
+&lt;p&gt;在计算机强校 UC Berkeley，我有幸对话 &lt;a href=&quot;https://ml.berkeley.edu&quot;&gt;ML@B (Machine Learning @ Berkeley)&lt;/a&gt; 的两位创始人 Ted Xiao 和 Gautham Kesineni，他们同时也是 &lt;a href=&quot;http://bair.berkeley.edu&quot;&gt;BAIR (Berkeley Artificial Intelligence Research Lab)&lt;/a&gt; 的学生。&lt;br&gt;
     
     </summary>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>Raspberry Pi 采集图像并自动上传</title>
-    <link href="http://blog.zealoft.com/2016/09/08/Raspberry%20Pi%20%E9%87%87%E9%9B%86%E5%9B%BE%E5%83%8F%E5%B9%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0/"/>
-    <id>http://blog.zealoft.com/2016/09/08/Raspberry Pi 采集图像并自动上传/</id>
+    <link href="http://blog.zealoft.com/2016/09/08/Raspberry-Pi-image-capturing/"/>
+    <id>http://blog.zealoft.com/2016/09/08/Raspberry-Pi-image-capturing/</id>
     <published>2016-09-09T00:50:24.000Z</published>
     <updated>2016-10-24T23:56:04.000Z</updated>
     
@@ -159,13 +159,13 @@
       <category term="Life" scheme="http://blog.zealoft.com/categories/Life/"/>
     
     
-      <category term="ML@B" scheme="http://blog.zealoft.com/tags/ML-B/"/>
-    
       <category term="UC Berkekey" scheme="http://blog.zealoft.com/tags/UC-Berkekey/"/>
     
       <category term="Berkeley City College" scheme="http://blog.zealoft.com/tags/Berkeley-City-College/"/>
     
       <category term="Machine Learning" scheme="http://blog.zealoft.com/tags/Machine-Learning/"/>
+    
+      <category term="ML@B" scheme="http://blog.zealoft.com/tags/ML-B/"/>
     
   </entry>
   
