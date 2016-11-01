@@ -1564,7 +1564,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6e93;
+  background: #63ff4b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2816,8 +2816,30 @@ body {
 #sidebar .feed-link a * {
   color: #e82c0c;
 }
+#sidebar .site-author-name {
+  letter-spacing: 2px;
+}
 #sidebar .site-state-item {
   padding: 0 10px !important;
+}
+#sidebar .links-of-author-item {
+  font-family: "Montserrat";
+  font-weight: "200";
+}
+#sidebar .links-of-author-item a {
+  border-radius: 0;
+  text-align: center;
+  font-size: 11px;
+  transition: background 0.4s ease-out, letter-spacing 0.4s ease-out, color 0.4s ease-out;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+  padding: 2px 5px;
+}
+#sidebar .links-of-author-item a:hover {
+  color: #222;
+  letter-spacing: 3px;
+  background: #f8f8f8;
 }
 .post-more-link {
   font-family: "Montserrat";
