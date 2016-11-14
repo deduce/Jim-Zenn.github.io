@@ -1563,7 +1563,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f6904a;
+  background: #88c803;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2740,7 +2740,7 @@ a {
   display: inline-block !important;
   content: "//";
   letter-spacing: -5px;
-  margin-right: 10px;
+  margin-right: 5px;
   color: #e82c0c;
 }
 #sidebar .site-author-name {

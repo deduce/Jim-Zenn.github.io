@@ -280,6 +280,25 @@ $(document).ready(function () {
       }
     },
 
+    schedule: function (integrator) {
+      var $event = $('.event');
+      var hasEvent = $event.size() > 0;
+
+      hasEvent ? eventMotion() : integrator.next();
+
+      function eventMotion () {
+        var eventMotionOptions = window.eventMotionOptions || {
+            stagger: 100,
+            drag: true
+          };
+        eventMotionOptions.complete = function () {
+          integrator.next();
+        };
+
+        $post.velocity('transition.slideDownIn', eventMotionOptions);
+      }
+    },
+
     sidebar: function (integrator) {
       if (CONFIG.sidebar.display === 'always') {
         NexT.utils.displaySidebar();
