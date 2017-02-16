@@ -4,9 +4,9 @@
 
 # Site
 title: ZEALOFT
-subtitle: 在这里阅读一个有趣的人
+subtitle:
 author: Jim Zenn
-description: 正在经历一场豪赌
+description:
 language: en
 timezone: America/Los_Angeles
 avatar: /images/avatar.png
@@ -63,6 +63,29 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+- hexo-generator-cname
+- hexo-server
+- hexo-deployer-git
+- hexo-front-matter
+- hexo-fs
+- hexo-generator-archive
+- hexo-generator-category
+- hexo-generator-cname
+- hexo-generator-feed
+- hexo-generator-index
+- hexo-generator-tag
+- hexo-i18n
+- hexo-inject
+- hexo-log
+- hexo-math
+- hexo-pagination
+- hexo-renderer-ejs
+- hexo-renderer-marked
+- hexo-renderer-stylus
+- hexo-server
+- hexo-util
+
 ## Themes: https://hexo.io/themes/
 theme: next
 

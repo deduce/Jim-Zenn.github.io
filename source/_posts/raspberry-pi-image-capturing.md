@@ -9,7 +9,7 @@ tags:
 
 ---
 
-{% fi /uploads/timelapse_1.gif, timelapse, 在 Euclid Hall 屋顶用 Raspberry Pi 拍摄的延时摄影 %}
+![在 Euclid Hall 屋顶用 Raspberry Pi 拍摄的延时摄影](/images/timelapse-on-euclid-hall.gif)
 
 　　每一次我跑步上 Berkeley Hills，沿途就可以眺望北湾两岸的风景。于是我想要用树莓派在那些观景点完成一个长时间的延时摄影。这周终于付诸实践。
 <!-- more -->
