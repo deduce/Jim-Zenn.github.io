@@ -792,7 +792,7 @@ function renderData(data) {
   $eventList = $('#schedule #event-list');
   var prevEnd = 0; // used to decide where to insert an <hr>
 
-  data.forEach((cal) => {events += cal['items'];});
+  data.forEach((cal) => {events.push(cal['items']);});
 
   events.forEach((event) => {
     // parse data
