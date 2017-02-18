@@ -793,6 +793,7 @@ function renderData(data) {
   var prevEnd = 0; // used to decide where to insert an <hr>
 
   data.forEach((cal) => {
+      console.log(cal);
       events = events.concat(cal['items']);
     });
 
