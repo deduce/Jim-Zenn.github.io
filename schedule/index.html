@@ -788,12 +788,10 @@ function fetchData() {
 
 function renderData(data) {
 
-  console.log(data);
 
   var prevEnd = 0; // used to decide where to insert an <hr>
 
   data.forEach((cal) => {
-      console.log(cal);
       events = events.concat(cal['items']);
     });
 
@@ -908,7 +906,6 @@ function buildEventDOM(tense, event) {
   else {
     var start      = new Date(event.start.date);
     var end        = new Date(event.end.date);
-    console.log(start);
     relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
     durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
                   end.toLocaleTimeString([], durationFormat);
