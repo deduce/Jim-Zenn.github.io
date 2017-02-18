@@ -863,8 +863,8 @@ function judgeTense(now, eventStart, eventEnd) {
 
 function buildEventDOM(tense, event) {
   var tenseClass = "";
-  var start      = new Date(event.start.dateTime);
-  var end        = new Date(event.end.dateTime);
+  var start      = new Date(event.start.dateTime || event.start.date);
+  var end        = new Date(event.end.dateTime || event.end.date);
   switch(tense) {
     case 0 : // now
       tenseClass = "event-now";
