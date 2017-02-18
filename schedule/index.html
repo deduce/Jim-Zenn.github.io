@@ -762,6 +762,7 @@ fetchData();
 setInterval(function(){
 
   // clean the event list
+  events = [];
   $eventList.html("");
 
   fetchData();
@@ -792,7 +793,7 @@ function renderData(data) {
   $eventList = $('#schedule #event-list');
   var prevEnd = 0; // used to decide where to insert an <hr>
 
-  data.forEach((cal) => {events.push(cal['items']);});
+  data.forEach((cal) => {events.concat(cal['items']);});
 
   events.forEach((event) => {
     // parse data
