@@ -737,7 +737,7 @@ timeMaxISO          = timeMax.toISOString();
 timeMinISO          = timeMin.toISOString();
 
 request_urls        = [];
-calIds.foreach(function(calId){
+calIds.forEach(function(calId){
   request_url = BASE_URL + calId + '/events?'  +
     FIELD_KEY           + '=' + apiKey        + '&' +
     FIELD_ORDERBY       + '=' + orderBy       + '&' +
@@ -770,7 +770,7 @@ setInterval(function(){
 
 function fetchData(renderData) {
   calData = [];
-  request_urls.foreach(function(request_url) {
+  request_urls.forEach(function(request_url) {
     $.ajax({
       dataType: 'json',
       url: request_url,
