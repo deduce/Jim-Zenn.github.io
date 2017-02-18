@@ -775,7 +775,6 @@ function fetchData() {
       dataType: 'json',
       url: request_url,
       success: function(data) {
-        console.log("#{request_url} fetched!");
         calData.push(data);
         if (calData.length == request_urls.length) renderData(calData);
       }
@@ -784,8 +783,6 @@ function fetchData() {
 }
 
 function renderData(data) {
-
-  console.log("Trying to render data.");
 
   console.log(data);
 
@@ -799,8 +796,8 @@ function renderData(data) {
 
   events.forEach((event) => {
     // parse data
-    var start = new Date(event.start.dateTime);
-    var end   = new Date(event.end.dateTime);
+    var start = new Date(event.start.dateTime || event.start.date);
+    var end   = new Date(event.end.dateTime || event.state.date);
 
     tense = judgeTense(now, start, end); // 0:now 1:future -1:past
 
