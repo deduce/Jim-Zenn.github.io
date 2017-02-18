@@ -797,7 +797,7 @@ function renderData(data) {
   events.forEach((event) => {
     // parse data
     var start = new Date(event.start.dateTime || event.start.date);
-    var end   = new Date(event.end.dateTime || event.state.date);
+    var end   = new Date(event.end.dateTime || event.end.date);
 
     tense = judgeTense(now, start, end); // 0:now 1:future -1:past
 
