@@ -691,6 +691,8 @@
  * Read configs from _config.yml.
  */
 
+$eventList = $('#schedule #event-list');
+
 var _n = function(arg) { if(arg) return arg; else return void 0;}
 
 var cal_data = void 0;
@@ -788,7 +790,6 @@ function renderData(data) {
 
   console.log(data);
 
-  $eventList = $('#schedule #event-list');
   var prevEnd = 0; // used to decide where to insert an <hr>
 
   data.forEach((cal) => {
