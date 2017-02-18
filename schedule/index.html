@@ -773,6 +773,11 @@ function fetchData() {
       url: request_url,
       success: function(data) {
         calData.push(data);
+
+        // clean the event list
+        $eventList.html("");
+        events = [];
+
         if (calData.length == request_urls.length) renderData(calData);
       }
     });
@@ -796,10 +801,6 @@ function renderData(data) {
       b = new Date(b.start.dateTime || b.start.date).valueOf();
       return a - b;
     })
-
-  // clean the event list
-  $eventList.html("");
-  events = [];
 
   events.forEach((event) => {
     // parse data
