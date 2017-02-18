@@ -902,8 +902,8 @@ function buildEventDOM(tense, event) {
     var end        = new Date(event.end.date);
     console.log(start);
     relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
-    durationStr = start.toDateString([]) + " - " +
-                  end.toDateString([]);
+    durationStr = start.toDateString("en-US") + " - " +
+                  end.toDateString("en-US");
   }
 
   liOpen                = `<li class="event ${tenseClass}">`;
