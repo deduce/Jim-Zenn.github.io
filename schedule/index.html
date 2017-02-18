@@ -711,6 +711,7 @@ var showDeleted     = _n( false )  || 'false'    ;
 var singleEvents    = _n( true )  || 'true'     ;
 var maxResults      = _n( 250 )  || '250'      ;
 
+calIds = calIds.split(",");
 timeMax.setHours(now.getHours() + offsetMax);
 timeMin.setHours(now.getHours() - offsetMin);
 
