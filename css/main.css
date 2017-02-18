@@ -1705,7 +1705,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f9328a;
+  background: #ffe886;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2943,6 +2943,9 @@ a {
 }
 #sidebar .site-state-item {
   padding: 0 10px !important;
+}
+#sidebar .site-state-item a {
+  display: block;
 }
 #sidebar .links-of-author a:before {
   display: none;
