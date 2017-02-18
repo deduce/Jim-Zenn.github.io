@@ -761,9 +761,6 @@ calIds.forEach(function(calId){
 fetchData();
 setInterval(function(){
 
-  // clean the event list
-  $eventList.html("");
-  events = [];
   fetchData();
 }, 60000);
 
@@ -799,6 +796,10 @@ function renderData(data) {
       b = new Date(b.start.dateTime || b.start.date).valueOf();
       return a - b;
     })
+
+  // clean the event list
+  $eventList.html("");
+  events = [];
 
   events.forEach((event) => {
     // parse data
