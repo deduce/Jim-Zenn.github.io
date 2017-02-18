@@ -863,8 +863,6 @@ function judgeTense(now, eventStart, eventEnd) {
 
 function buildEventDOM(tense, event) {
   var tenseClass = "";
-  var start      = new Date(event.start.dateTime || event.start.date);
-  var end        = new Date(event.end.dateTime || event.end.date);
   switch(tense) {
     case 0 : // now
       tenseClass = "event-now";
@@ -883,9 +881,21 @@ function buildEventDOM(tense, event) {
     hour: '2-digit',
     minute:'2-digit'
   };
-  relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
-  durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
-                end.toLocaleTimeString([], durationFormat);
+  if (event.start.dateTime) {
+    var start      = new Date(event.start.dateTime);
+    var end        = new Date(event.end.dateTime);
+    relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
+    durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
+                  end.toLocaleTimeString([], durationFormat);
+  }
+  else {
+    var start      = new Date(event.start.date);
+    var end        = new Date(event.end.date);
+    console.log(start);
+    relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
+    durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
+                  end.toLocaleTimeString([], durationFormat);
+  }
 
   liOpen                = `<li class="event ${tenseClass}">`;
   liClose               = `</li>`;
