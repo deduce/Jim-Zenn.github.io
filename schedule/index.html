@@ -792,7 +792,7 @@ function renderData(data) {
 
   data.forEach((cal) => {events += cal['items'];});
 
-  events.foreach((event) => {
+  events.forEach((event) => {
     // parse data
     var start = new Date(event.start.dateTime);
     var end   = new Date(event.end.dateTime);
