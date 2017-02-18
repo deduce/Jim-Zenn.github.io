@@ -884,6 +884,11 @@ function buildEventDOM(tense, event) {
     hour: '2-digit',
     minute:'2-digit'
   };
+  shortDurationFormat = {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  };
   if (event.start.dateTime) {
     var start      = new Date(event.start.dateTime);
     var end        = new Date(event.end.dateTime);
@@ -896,8 +901,8 @@ function buildEventDOM(tense, event) {
     var end        = new Date(event.end.date);
     console.log(start);
     relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
-    durationStr = start.toDateString([],durationFormat) + " - " +
-                  end.toDateString([],durationFormat);
+    durationStr = start.toLocaleTimeString([],shortDurationFormat) + " - " +
+                  end.toLocaleTimeString([],shortDurationFormat);
   }
 
   liOpen                = `<li class="event ${tenseClass}">`;
