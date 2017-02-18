@@ -894,9 +894,7 @@ function buildEventDOM(tense, event) {
   }
   else {
     var start      = new Date(event.start.date);
-    start.setHours(start.getHours()+start.getTimezoneOffset());
     var end        = new Date(event.end.date);
-    end.setHours(end.getHours()+end.getTimezoneOffset());
     relativeTimeStr = (tense == 0) ? "NOW" : getRelativeTime(now, start);
     durationStr = start.toLocaleTimeString([], durationFormat) + " - " +
                   end.toLocaleTimeString([], durationFormat);
