@@ -5,16 +5,19 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next mist use-motion" lang="en">
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
 
 
 
@@ -69,9 +72,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -85,7 +88,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=5.0.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=5.1.0" />
 
 
 
@@ -98,16 +101,17 @@
 <meta property="og:url" content="http://blog.zealoft.com/2017/01/19/winter-vacation-and-the-new-semester/index.html">
 <meta property="og:site_name" content="ZEALOFT">
 <meta property="og:description" content="再过三天寒假就结束了。对于许多我曾经的同年级同学而言，这意味着最后半年学校生活的开始，很快他们就要迎来毕业，走向社会，走向工作岗位，开始新的生活。">
-<meta property="og:updated_time" content="2017-01-20T05:55:15.000Z">
+<meta property="og:updated_time" content="2017-01-20T20:35:19.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="寒假，以及新的学期">
 <meta name="twitter:description" content="再过三天寒假就结束了。对于许多我曾经的同年级同学而言，这意味着最后半年学校生活的开始，很快他们就要迎来毕业，走向社会，走向工作岗位，开始新的生活。">
 
 
 
-<script type="text/javascript" id="hexo.configuration">
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    root: '/',
     scheme: 'Mist',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
@@ -115,22 +119,33 @@
     duoshuo: {
       userId: '520505',
       author: '(博主)'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
 
 
-
   <link rel="canonical" href="http://blog.zealoft.com/2017/01/19/winter-vacation-and-the-new-semester/"/>
+
+
+
 
 
   <title> 寒假，以及新的学期 | ZEALOFT </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
-<body itemscope itemtype="//schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
+
+
 
 
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><script>
@@ -150,6 +165,8 @@
 
 
 
+
+
   
   
     
@@ -158,7 +175,7 @@
   <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-meta ">
   
 
@@ -169,7 +186,9 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle"></p>
+    
+      <p class="site-subtitle"></p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -234,6 +253,8 @@
   
 </nav>
 
+
+
  </div>
     </header>
 
@@ -247,13 +268,26 @@
     
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://blog.zealoft.com/2017/01/19/winter-vacation-and-the-new-semester/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jim Zenn">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="ZEALOFT">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="ZEALOFT" src="">
+    </span>
+  </span>
 
     
       <header class="post-header">
@@ -272,24 +306,36 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2017-01-19T21:03:41-08:00" content="2017-01-19">
-              2017-01-19
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-19T21:03:41-08:00">
+                2017-01-19
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">In</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Life/" itemprop="url" rel="index">
                     <span itemprop="name">Life</span>
                   </a>
@@ -297,7 +343,6 @@
 
                 
                 
-
               
             </span>
           
@@ -305,29 +350,37 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/01/19/winter-vacation-and-the-new-semester/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/19/winter-vacation-and-the-new-semester/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/19/winter-vacation-and-the-new-semester/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
           
              <span id="/2017/01/19/winter-vacation-and-the-new-semester/" class="leancloud_visitors" data-flag-title="寒假，以及新的学期">
-               &nbsp; | &nbsp;
+               <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
                </span>
-               <span class="post-meta-item-text">visitors </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
+               
+                 <span class="post-meta-item-text">Visitors </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
@@ -341,7 +394,7 @@
       
         <p>　　再过三天寒假就结束了。对于许多我曾经的同年级同学而言，这意味着最后半年学校生活的开始，很快他们就要迎来毕业，走向社会，走向工作岗位，开始新的生活。<br><a id="more"></a></p>
 <h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>　　如果我仍然在哈工大，我也是这样的。其他的不可知，但我一定不会走一条学术道路；我或许很会成为一名前端工程师，在一家大企业或者创业公司，拿着高不成低不就的薪水。人生的前程或多或少可以展望到，未来会是怎样，将怎样发展，多少已经成了定数。<br>　　坦率的说，我惧怕这样的定数。没有变化或者有很少变化的人生，没有太多值得奋斗的目标的人生；庸碌的工作，每天思考怎样解决一些细碎的问题，直到白了头发。<br>　　将我从这种可能中拯救出来的不是我自己，很遗憾。是乔熊和同桌的建议，是父母坚定的支持，是珊珊的陪伴与督促，也是学生公社伙伴的接纳与支持。缺少其中任何一项，我都可能会再淹没在颓废、孤独或者绝望里。不论如何，我幸运地获得了继续奋斗的门票— 通过奋斗快速上升是学生的特权，而在一个有足够学术、文化支持的环境奋斗，更是求之不得的条件。</p>
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>　　这个寒假，我遇到了人生中的另一位贵人，带领我走入了机器学习的行业圈；她没有在意我的普通的学位，为我创造了良好的工作机会和学习支持；对此我心怀感激。很惭愧的事，我也常常忘了自己是谁，有的时候竟然还自我感觉良好。这一场赌博还没有结束，你还有很多工作。听听你的同学都去了哪里吧，然后珍惜继续奋斗的机会。</p>
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>　　这个寒假，我遇到了人生中的另一位贵人，带领我走入了机器学习的行业圈；她没有在意我的普通的学位，为我创造了良好的工作机会和学习支持；对此我心怀感激。很惭愧的是，我也常常忘了自己是谁，有的时候竟然还自我感觉良好。这一场赌博还没有结束，你还有很多工作。听听你的同学都去了哪里吧，然后珍惜继续奋斗的机会。</p>
 <p>以上。</p>
 
       
@@ -361,7 +414,12 @@
       
     </div>
 
+
     <footer class="post-footer">
+      
+
+      
+        
       
 
       
@@ -373,6 +431,8 @@
               </a>
             
           </div>
+
+          <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
@@ -392,7 +452,7 @@
     </div>
   </div>
 
-
+          
           </div>
           
 
@@ -435,8 +495,8 @@
         </ul>
       
 
-      <section class="site-overview sidebar-panel ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
                alt="Jim Zenn" />
@@ -444,12 +504,15 @@
           <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">5</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -555,19 +618,27 @@
         
         
 
+        
+
+
       </section>
 
       
+      <!--noindex-->
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
+
             
               
             
+
             
               <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一"><span class="nav-number">1.</span> <span class="nav-text">一</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二"><span class="nav-number">2.</span> <span class="nav-text">二</span></a></li></ol></div>
             
+
           </div>
         </section>
+      <!--/noindex-->
       
 
     </div>
@@ -590,6 +661,7 @@
   <span class="author" itemprop="copyrightHolder">Jim Zenn</span>
 </div>
 
+
 <div class="powered-by">
   Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
@@ -600,6 +672,7 @@
     NexT.Mist
   </a>
 </div>
+
 
         
 
@@ -632,6 +705,7 @@
 
 
 
+
   
   <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
 
@@ -654,25 +728,25 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.2"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.2"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
 
 
 
   
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.2"></script>
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
 
 
 
@@ -697,9 +771,17 @@
 
   
     
+    
     <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
     <script src="/js/src/hook-duoshuo.js"></script>
   
+
+
+
+
+
+
+
 
 
 
@@ -840,8 +922,6 @@
   
 
   
-
-
 
 
 </body>
