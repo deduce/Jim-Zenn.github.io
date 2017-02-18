@@ -769,7 +769,7 @@ setInterval(function(){
 
 function fetchData(renderData) {
   calData = [];
-  request_urls.foreach(request_url) {
+  request_urls.foreach(function(request_url) {
     $.ajax({
       dataType: 'json',
       url: request_url,
@@ -778,7 +778,7 @@ function fetchData(renderData) {
         calData.push(data);
       }
     });
-  }
+  });
   renderData(calData);
 }
 
