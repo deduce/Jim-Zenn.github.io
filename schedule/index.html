@@ -777,10 +777,10 @@ function fetchData() {
       success: function(data) {
         console.log("#{request_url} fetched!");
         calData.push(data);
+        if (calData.length == request_urls.length) renderData(calData);
       }
     });
   });
-  renderData(calData);
 }
 
 function renderData(data) {
