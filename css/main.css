@@ -1705,7 +1705,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #95d13c;
+  background: #b5cbba;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2864,6 +2864,7 @@ a {
   margin: 0 !important;
 }
 #header .site-meta {
+  margin-left: none;
   background: none;
 }
 #header .site-meta .site-title {
@@ -2961,6 +2962,7 @@ a {
   padding: 0 10px !important;
 }
 #sidebar .site-state-item a {
+  transition: color 0.4s ease-out;
   display: block;
 }
 #sidebar .links-of-author a:before {
@@ -2986,6 +2988,10 @@ a {
 }
 .post-meta {
   user-select: none;
+  text-transform: uppercase;
+}
+.post-meta .post-meta-item-icon {
+  display: none;
 }
 .post-more-link {
   font-family: "Montserrat";
