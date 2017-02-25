@@ -650,14 +650,14 @@
                             </text>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-104)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-103"></use>
-                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string name</tspan>
+                                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String name</tspan>
                                 </text>
                             </g>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-106)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-105"></use>
-                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string type</tspan>
+                                <text id="String-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String type</tspan>
                                 </text>
                             </g>
                         </g>
@@ -679,14 +679,14 @@
                             </text>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-112)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-111"></use>
-                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string name</tspan>
+                                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String name</tspan>
                                 </text>
                             </g>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-114)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-113"></use>
-                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string type</tspan>
+                                <text id="String-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String type</tspan>
                                 </text>
                             </g>
                         </g>
@@ -708,14 +708,14 @@
                             </text>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-120)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-119"></use>
-                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string name</tspan>
+                                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String name</tspan>
                                 </text>
                             </g>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-122)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-121"></use>
-                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string type</tspan>
+                                <text id="String-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String type</tspan>
                                 </text>
                             </g>
                         </g>
@@ -737,14 +737,14 @@
                             </text>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-128)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-127"></use>
-                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string name</tspan>
+                                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String name</tspan>
                                 </text>
                             </g>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-130)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-129"></use>
-                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string type</tspan>
+                                <text id="String-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String type</tspan>
                                 </text>
                             </g>
                         </g>
@@ -766,14 +766,14 @@
                             </text>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-136)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-135"></use>
-                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string name</tspan>
+                                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String name</tspan>
                                 </text>
                             </g>
                             <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
                                 <use id="box" stroke="#AAAAAA" mask="url(#mask-138)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-137"></use>
-                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
-                                    <tspan x="8" y="19">string type</tspan>
+                                <text id="String-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">String type</tspan>
                                 </text>
                             </g>
                         </g>
