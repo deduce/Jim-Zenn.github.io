@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1750px" height="862px" viewBox="0 0 1750 862" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Data Structure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="230" height="140" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="230" height="140" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="10" y="62.8985507" width="210" height="34.4927536"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="10" y="96.3768116" width="210" height="34.4927536"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="10" y="29.4202899" width="210" height="34.4927536"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="230" height="140" rx="8"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="230" height="140" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="10" y="62.8985507" width="210" height="34.4927536"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="10" y="96.3768116" width="210" height="34.4927536"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="10" y="29.4202899" width="210" height="34.4927536"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="0" y="0" width="230" height="140" rx="8"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="230" height="140" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="10" y="62.8985507" width="210" height="34.4927536"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="10" y="96.3768116" width="210" height="34.4927536"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="10" y="29.4202899" width="210" height="34.4927536"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="0" y="0" width="230" height="140" rx="8"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="230" height="140" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-27" x="10" y="62.8985507" width="210" height="34.4927536"></rect>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <rect id="path-29" x="10" y="96.3768116" width="210" height="34.4927536"></rect>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <rect id="path-31" x="10" y="29.4202899" width="210" height="34.4927536"></rect>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-33" x="0" y="0" width="230" height="140" rx="8"></rect>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="230" height="140" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <rect id="path-35" x="10" y="62.8985507" width="210" height="34.4927536"></rect>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <rect id="path-37" x="10" y="96.3768116" width="210" height="34.4927536"></rect>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <rect id="path-39" x="10" y="29.4202899" width="210" height="34.4927536"></rect>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="210" height="34.4927536" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <rect id="path-41" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <text id="text-43" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+            <tspan x="31" y="20">reference to</tspan>
+            <tspan x="13" y="33">ArrayList&lt;Literal&gt;</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-44">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-45">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-46" x="0" y="0" width="123" height="133" rx="8"></rect>
+        <mask id="mask-47" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="133" fill="white">
+            <use xlink:href="#path-46"></use>
+        </mask>
+        <rect id="path-48" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-49" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-48"></use>
+        </mask>
+        <rect id="path-50" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-51" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-50"></use>
+        </mask>
+        <rect id="path-52" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-53" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-52"></use>
+        </mask>
+        <rect id="path-54" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-55" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-54"></use>
+        </mask>
+        <rect id="path-56" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-57" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-56"></use>
+        </mask>
+        <text id="text-58" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+            <tspan x="31" y="20">reference to</tspan>
+            <tspan x="13" y="33">ArrayList&lt;Literal&gt;</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-59">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-60">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-61" x="0" y="0" width="123" height="133" rx="8"></rect>
+        <mask id="mask-62" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="133" fill="white">
+            <use xlink:href="#path-61"></use>
+        </mask>
+        <rect id="path-63" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <rect id="path-65" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <rect id="path-67" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-68" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <rect id="path-69" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-69"></use>
+        </mask>
+        <rect id="path-71" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-72" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+        <text id="text-73" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+            <tspan x="31" y="20">reference to</tspan>
+            <tspan x="13" y="33">ArrayList&lt;Literal&gt;</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-74">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-75">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-76" x="0" y="0" width="123" height="133" rx="8"></rect>
+        <mask id="mask-77" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="133" fill="white">
+            <use xlink:href="#path-76"></use>
+        </mask>
+        <rect id="path-78" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-79" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-78"></use>
+        </mask>
+        <rect id="path-80" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-81" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-80"></use>
+        </mask>
+        <rect id="path-82" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-83" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-82"></use>
+        </mask>
+        <rect id="path-84" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-85" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-84"></use>
+        </mask>
+        <rect id="path-86" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-87" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-86"></use>
+        </mask>
+        <text id="text-88" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+            <tspan x="31" y="20">reference to</tspan>
+            <tspan x="13" y="33">ArrayList&lt;Literal&gt;</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-89">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-90">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-91" x="0" y="0" width="123" height="133" rx="8"></rect>
+        <mask id="mask-92" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="133" fill="white">
+            <use xlink:href="#path-91"></use>
+        </mask>
+        <rect id="path-93" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-94" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-93"></use>
+        </mask>
+        <rect id="path-95" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-96" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-95"></use>
+        </mask>
+        <rect id="path-97" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-98" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-97"></use>
+        </mask>
+        <rect id="path-99" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-100" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-99"></use>
+        </mask>
+        <rect id="path-101" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-102" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-101"></use>
+        </mask>
+        <text id="text-103" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+            <tspan x="31" y="20">reference to</tspan>
+            <tspan x="13" y="33">ArrayList&lt;Literal&gt;</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-104">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-105">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-106" x="0" y="0" width="123" height="133" rx="8"></rect>
+        <mask id="mask-107" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="133" fill="white">
+            <use xlink:href="#path-106"></use>
+        </mask>
+        <rect id="path-108" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-109" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-108"></use>
+        </mask>
+        <rect id="path-110" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-111" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-110"></use>
+        </mask>
+        <rect id="path-112" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-113" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-112"></use>
+        </mask>
+        <rect id="path-114" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-115" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-114"></use>
+        </mask>
+        <rect id="path-116" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-117" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-116"></use>
+        </mask>
+        <rect id="path-118" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-119" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-118"></use>
+        </mask>
+        <rect id="path-120" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-121" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-120"></use>
+        </mask>
+        <rect id="path-122" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-123" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-122"></use>
+        </mask>
+        <rect id="path-124" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-125" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-124"></use>
+        </mask>
+        <rect id="path-126" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-127" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-126"></use>
+        </mask>
+        <rect id="path-128" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-129" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-128"></use>
+        </mask>
+        <rect id="path-130" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-131" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-130"></use>
+        </mask>
+        <rect id="path-132" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-133" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-132"></use>
+        </mask>
+        <rect id="path-134" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-135" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-134"></use>
+        </mask>
+        <rect id="path-136" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-137" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-136"></use>
+        </mask>
+        <rect id="path-138" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-139" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-138"></use>
+        </mask>
+        <rect id="path-140" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-141" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-140"></use>
+        </mask>
+        <rect id="path-142" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-143" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-142"></use>
+        </mask>
+        <rect id="path-144" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-145" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-144"></use>
+        </mask>
+        <rect id="path-146" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-147" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-146"></use>
+        </mask>
+        <rect id="path-148" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-149" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-148"></use>
+        </mask>
+        <rect id="path-150" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-151" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-150"></use>
+        </mask>
+        <rect id="path-152" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-153" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-152"></use>
+        </mask>
+        <rect id="path-154" x="0" y="0" width="133" height="44"></rect>
+        <mask id="mask-155" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="133" height="44" fill="white">
+            <use xlink:href="#path-154"></use>
+        </mask>
+        <rect id="path-156" x="0" y="0" width="123" height="83" rx="8"></rect>
+        <mask id="mask-157" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="123" height="83" fill="white">
+            <use xlink:href="#path-156"></use>
+        </mask>
+        <rect id="path-158" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-159" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-158"></use>
+        </mask>
+        <rect id="path-160" x="0" y="0" width="105" height="27"></rect>
+        <mask id="mask-161" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="105" height="27" fill="white">
+            <use xlink:href="#path-160"></use>
+        </mask>
+        <rect id="path-162" x="0" y="0" width="173" height="140" rx="8"></rect>
+        <mask id="mask-163" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="173" height="140" fill="white">
+            <use xlink:href="#path-162"></use>
+        </mask>
+        <rect id="path-164" x="0" y="0" width="78.5582617" height="27"></rect>
+        <mask id="mask-165" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-164"></use>
+        </mask>
+        <rect id="path-166" x="0" y="25" width="78.5582617" height="27"></rect>
+        <mask id="mask-167" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-166"></use>
+        </mask>
+        <rect id="path-168" x="0" y="51" width="78.5582617" height="27"></rect>
+        <mask id="mask-169" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-168"></use>
+        </mask>
+        <rect id="path-170" x="0" y="77" width="78.5582617" height="27"></rect>
+        <mask id="mask-171" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-170"></use>
+        </mask>
+        <rect id="path-172" x="0" y="0" width="78.5582617" height="27"></rect>
+        <mask id="mask-173" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-172"></use>
+        </mask>
+        <rect id="path-174" x="0" y="25" width="78.5582617" height="27"></rect>
+        <mask id="mask-175" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-174"></use>
+        </mask>
+        <rect id="path-176" x="0" y="51" width="78.5582617" height="27"></rect>
+        <mask id="mask-177" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-176"></use>
+        </mask>
+        <rect id="path-178" x="0" y="77" width="78.5582617" height="27"></rect>
+        <mask id="mask-179" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.5582617" height="27" fill="white">
+            <use xlink:href="#path-178"></use>
+        </mask>
+        <rect id="path-180" x="0" y="0" width="286" height="71" rx="8"></rect>
+        <mask id="mask-181" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="286" height="71" fill="white">
+            <use xlink:href="#path-180"></use>
+        </mask>
+        <rect id="path-182" x="8" y="27" width="270" height="34"></rect>
+        <mask id="mask-183" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="270" height="34" fill="white">
+            <use xlink:href="#path-182"></use>
+        </mask>
+    </defs>
+    <g id="Data-Structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="Table" transform="translate(618.000000, 1.000000)">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <text id="ColumnHead[]-heads" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="43" y="85">ColumnHead[] heads</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <text id="ArrayList&lt;ArrayList&gt;" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="15" y="118.478261">ArrayList&lt;ArrayList&gt; data</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-8)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="71" y="51.5217391">String name</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#222222">
+                    <tspan x="98" y="21.115942">Table</tspan>
+                </text>
+            </g>
+            <g id="Table" transform="translate(618.000000, 179.000000)">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-10)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-12)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                <text id="ColumnHead[]-heads" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="43" y="85">ColumnHead[] heads</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-14)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                <text id="ArrayList&lt;ArrayList&gt;" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="15" y="118.478261">ArrayList&lt;ArrayList&gt; data</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-16)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="71" y="51.5217391">String name</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#222222">
+                    <tspan x="98" y="21.115942">Table</tspan>
+                </text>
+            </g>
+            <g id="Table" transform="translate(618.000000, 360.000000)">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-18)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-20)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                <text id="ColumnHead[]-heads" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="43" y="85">ColumnHead[] heads</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-22)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                <text id="ArrayList&lt;ArrayList&gt;" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="15" y="118.478261">ArrayList&lt;ArrayList&gt; data</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-24)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="71" y="51.5217391">String name</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#222222">
+                    <tspan x="98" y="21.115942">Table</tspan>
+                </text>
+            </g>
+            <g id="Table" transform="translate(618.000000, 541.000000)">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-26)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-28)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                <text id="ColumnHead[]-heads" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="43" y="85">ColumnHead[] heads</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-30)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
+                <text id="ArrayList&lt;ArrayList&gt;" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="15" y="118.478261">ArrayList&lt;ArrayList&gt; data</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-32)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="71" y="51.5217391">String name</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#222222">
+                    <tspan x="98" y="21.115942">Table</tspan>
+                </text>
+            </g>
+            <g id="Table" transform="translate(618.000000, 722.000000)">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-34)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-36)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-35"></use>
+                <text id="ColumnHead[]-heads" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="43" y="85">ColumnHead[] heads</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-38)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-37"></use>
+                <text id="ArrayList&lt;ArrayList&gt;" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="15" y="118.478261">ArrayList&lt;ArrayList&gt; data</tspan>
+                </text>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-40)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-39"></use>
+                <text id="String-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#222222">
+                    <tspan x="71" y="51.5217391">String name</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#222222">
+                    <tspan x="98" y="21.115942">Table</tspan>
+                </text>
+            </g>
+            <g id="data" transform="translate(906.000000, 256.000000)">
+                <g id="ArrayList&lt;Literal&gt;-Item">
+                    <g id="item" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-42)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-41"></use>
+                        <g id="reference-to-ArrayLi" fill-opacity="1" fill="#AAAAAA">
+                            <use filter="url(#filter-44)" xlink:href="#text-43"></use>
+                            <use filter="url(#filter-45)" xlink:href="#text-43"></use>
+                        </g>
+                    </g>
+                    <path d="M67.5,38.5 L67.5,73.5487515" id="Line" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="ArrayList&lt;Literal&gt;" transform="translate(5.000000, 75.000000)">
+                        <use id="box" stroke="#222222" mask="url(#mask-47)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-46"></use>
+                        <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                            <tspan x="8" y="15">ArrayList&lt;Literal&gt;</tspan>
+                        </text>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-49)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-48"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 48.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-51)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-50"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 74.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-53)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-52"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 100.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-55)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-54"></use>
+                            <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="40" y="19">···</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="ArrayList&lt;Literal&gt;-Item" transform="translate(528.000000, 0.000000)">
+                    <g id="item" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-57)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-56"></use>
+                        <g id="reference-to-ArrayLi" fill-opacity="1" fill="#AAAAAA">
+                            <use filter="url(#filter-59)" xlink:href="#text-58"></use>
+                            <use filter="url(#filter-60)" xlink:href="#text-58"></use>
+                        </g>
+                    </g>
+                    <path d="M67.5,38.5 L67.5,73.5487515" id="Line" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="ArrayList&lt;Literal&gt;" transform="translate(5.000000, 75.000000)">
+                        <use id="box" stroke="#222222" mask="url(#mask-62)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-61"></use>
+                        <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                            <tspan x="8" y="15">ArrayList&lt;Literal&gt;</tspan>
+                        </text>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-64)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-63"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 48.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-66)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-65"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 74.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-68)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-67"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 100.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-70)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-69"></use>
+                            <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="40" y="19">···</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="ArrayList&lt;Literal&gt;-Item" transform="translate(396.000000, 0.000000)">
+                    <g id="item" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-72)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-71"></use>
+                        <g id="reference-to-ArrayLi" fill-opacity="1" fill="#AAAAAA">
+                            <use filter="url(#filter-74)" xlink:href="#text-73"></use>
+                            <use filter="url(#filter-75)" xlink:href="#text-73"></use>
+                        </g>
+                    </g>
+                    <path d="M67.5,38.5 L67.5,73.5487515" id="Line" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="ArrayList&lt;Literal&gt;" transform="translate(5.000000, 75.000000)">
+                        <use id="box" stroke="#222222" mask="url(#mask-77)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-76"></use>
+                        <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                            <tspan x="8" y="15">ArrayList&lt;Literal&gt;</tspan>
+                        </text>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-79)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-78"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 48.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-81)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-80"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 74.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-83)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-82"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 100.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-85)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-84"></use>
+                            <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="40" y="19">···</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="ArrayList&lt;Literal&gt;-Item" transform="translate(264.000000, 0.000000)">
+                    <g id="item" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-87)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-86"></use>
+                        <g id="reference-to-ArrayLi" fill-opacity="1" fill="#AAAAAA">
+                            <use filter="url(#filter-89)" xlink:href="#text-88"></use>
+                            <use filter="url(#filter-90)" xlink:href="#text-88"></use>
+                        </g>
+                    </g>
+                    <path d="M67.5,38.5 L67.5,73.5487515" id="Line" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="ArrayList&lt;Literal&gt;" transform="translate(5.000000, 75.000000)">
+                        <use id="box" stroke="#222222" mask="url(#mask-92)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-91"></use>
+                        <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                            <tspan x="8" y="15">ArrayList&lt;Literal&gt;</tspan>
+                        </text>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-94)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-93"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 48.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-96)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-95"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 74.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-98)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-97"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 100.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-100)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-99"></use>
+                            <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="40" y="19">···</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="ArrayList&lt;Literal&gt;-Item" transform="translate(132.000000, 0.000000)">
+                    <g id="item" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-102)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-101"></use>
+                        <g id="reference-to-ArrayLi" fill-opacity="1" fill="#AAAAAA">
+                            <use filter="url(#filter-104)" xlink:href="#text-103"></use>
+                            <use filter="url(#filter-105)" xlink:href="#text-103"></use>
+                        </g>
+                    </g>
+                    <path d="M67.5,38.5 L67.5,73.5487515" id="Line" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="ArrayList&lt;Literal&gt;" transform="translate(5.000000, 75.000000)">
+                        <use id="box" stroke="#222222" mask="url(#mask-107)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-106"></use>
+                        <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                            <tspan x="8" y="15">ArrayList&lt;Literal&gt;</tspan>
+                        </text>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-109)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-108"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 48.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-111)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-110"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 74.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-113)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-112"></use>
+                            <text id="Literal" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="24" y="19">Literal</tspan>
+                            </text>
+                        </g>
+                        <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 100.000000)">
+                            <use id="box" stroke="#AAAAAA" mask="url(#mask-115)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-114"></use>
+                            <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                <tspan x="40" y="19">···</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="heads" transform="translate(906.000000, 68.000000)">
+                <g id="ColumnHead-Item">
+                    <g id="item" fill-rule="evenodd">
+                        <g id="ColumnHead" transform="translate(5.000000, 75.000000)">
+                            <use id="box" stroke="#222222" mask="url(#mask-117)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-116"></use>
+                            <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                                <tspan x="32" y="15">ColumnHead</tspan>
+                            </text>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-119)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-118"></use>
+                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string name</tspan>
+                                </text>
+                            </g>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-121)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-120"></use>
+                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string type</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-123)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-122"></use>
+                        <text id="reference-to-ColumnH" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+                            <tspan x="31" y="21">reference to</tspan>
+                            <tspan x="37" y="34">ColumnHead</tspan>
+                        </text>
+                    </g>
+                    <path d="M67.5,38.4857371 L67.5,73.5487515" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="ColumnHead-Item" transform="translate(264.000000, 0.000000)">
+                    <g id="item" fill-rule="evenodd">
+                        <g id="ColumnHead" transform="translate(5.000000, 75.000000)">
+                            <use id="box" stroke="#222222" mask="url(#mask-125)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-124"></use>
+                            <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                                <tspan x="32" y="15">ColumnHead</tspan>
+                            </text>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-127)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-126"></use>
+                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string name</tspan>
+                                </text>
+                            </g>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-129)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-128"></use>
+                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string type</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-131)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-130"></use>
+                        <text id="reference-to-ColumnH" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+                            <tspan x="31" y="21">reference to</tspan>
+                            <tspan x="37" y="34">ColumnHead</tspan>
+                        </text>
+                    </g>
+                    <path d="M67.5,38.4857371 L67.5,73.5487515" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="ColumnHead-Item" transform="translate(132.000000, 0.000000)">
+                    <g id="item" fill-rule="evenodd">
+                        <g id="ColumnHead" transform="translate(5.000000, 75.000000)">
+                            <use id="box" stroke="#222222" mask="url(#mask-133)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-132"></use>
+                            <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                                <tspan x="32" y="15">ColumnHead</tspan>
+                            </text>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-135)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-134"></use>
+                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string name</tspan>
+                                </text>
+                            </g>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-137)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-136"></use>
+                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string type</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-139)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-138"></use>
+                        <text id="reference-to-ColumnH" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+                            <tspan x="31" y="21">reference to</tspan>
+                            <tspan x="37" y="34">ColumnHead</tspan>
+                        </text>
+                    </g>
+                    <path d="M67.5,38.4857371 L67.5,73.5487515" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="ColumnHead-Item" transform="translate(528.000000, 0.000000)">
+                    <g id="item" fill-rule="evenodd">
+                        <g id="ColumnHead" transform="translate(5.000000, 75.000000)">
+                            <use id="box" stroke="#222222" mask="url(#mask-141)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-140"></use>
+                            <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                                <tspan x="32" y="15">ColumnHead</tspan>
+                            </text>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-143)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-142"></use>
+                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string name</tspan>
+                                </text>
+                            </g>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-145)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-144"></use>
+                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string type</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-147)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-146"></use>
+                        <text id="reference-to-ColumnH" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+                            <tspan x="31" y="21">reference to</tspan>
+                            <tspan x="37" y="34">ColumnHead</tspan>
+                        </text>
+                    </g>
+                    <path d="M67.5,38.4857371 L67.5,73.5487515" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="ColumnHead-Item" transform="translate(396.000000, 0.000000)">
+                    <g id="item" fill-rule="evenodd">
+                        <g id="ColumnHead" transform="translate(5.000000, 75.000000)">
+                            <use id="box" stroke="#222222" mask="url(#mask-149)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-148"></use>
+                            <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                                <tspan x="32" y="15">ColumnHead</tspan>
+                            </text>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-151)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-150"></use>
+                                <text id="string-name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string name</tspan>
+                                </text>
+                            </g>
+                            <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                                <use id="box" stroke="#AAAAAA" mask="url(#mask-153)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-152"></use>
+                                <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                                    <tspan x="8" y="19">string type</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <use id="Rectangle" stroke="#AAAAAA" mask="url(#mask-155)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-154"></use>
+                        <text id="reference-to-ColumnH" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#AAAAAA">
+                            <tspan x="31" y="21">reference to</tspan>
+                            <tspan x="37" y="34">ColumnHead</tspan>
+                        </text>
+                    </g>
+                    <path d="M67.5,38.4857371 L67.5,73.5487515" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path id="Line-decoration-1" d="M64.5,62.7487515 L67.5,73.5487515 L70.5,62.7487515" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Literal&lt;T&gt;" transform="translate(1627.000000, 356.000000)">
+                <use id="box" stroke="#222222" mask="url(#mask-157)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-156"></use>
+                <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                    <tspan x="32" y="15">Literal&lt;T&gt;</tspan>
+                </text>
+                <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 23.000000)">
+                    <use id="box" stroke="#AAAAAA" mask="url(#mask-159)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-158"></use>
+                    <text id="string-type" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                        <tspan x="8" y="19">string type</tspan>
+                    </text>
+                </g>
+                <g id="variable" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 49.000000)">
+                    <use id="box" stroke="#AAAAAA" mask="url(#mask-161)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-160"></use>
+                    <text id="T-val" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                        <tspan x="32" y="19">T val</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Namespace" transform="translate(337.000000, 1.000000)">
+                <use id="box" stroke="#222222" mask="url(#mask-163)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-162"></use>
+                <text id="class-name" font-family="PragmataProMono, PragmataPro Mono" font-size="12" font-weight="normal" fill="#141414">
+                    <tspan x="21" y="18">HashMap&lt;String, Table&gt;</tspan>
+                </text>
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 27.000000)">
+                    <g id="Values" transform="translate(77.000000, 0.000000)">
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-165)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-164"></use>
+                        <text id="Value" font-family="PragmataProMono-Bold, PragmataPro Mono" font-size="16" font-weight="bold" fill="#141414">
+                            <tspan x="19" y="19">Value</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-167)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-166"></use>
+                        <text id="table" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="19" y="44">table</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-169)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-168"></use>
+                        <text id="table" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="19" y="70">table</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-171)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-170"></use>
+                        <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="27" y="96">···</tspan>
+                        </text>
+                    </g>
+                    <g id="Keys">
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-173)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-172"></use>
+                        <text id="Key" font-family="PragmataProMono-Bold, PragmataPro Mono" font-size="16" font-weight="bold" fill="#141414">
+                            <tspan x="27" y="19">Key</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-175)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-174"></use>
+                        <text id="name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="23" y="44">name</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-177)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-176"></use>
+                        <text id="name" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="23" y="70">name</tspan>
+                        </text>
+                        <use id="box" stroke="#AAAAAA" mask="url(#mask-179)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-178"></use>
+                        <text id="···" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                            <tspan x="27" y="96">···</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Database">
+                <use id="Rectangle" stroke="#222222" mask="url(#mask-181)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-180"></use>
+                <use id="box" stroke="#AAAAAA" mask="url(#mask-183)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-182"></use>
+                <text id="HashMap&lt;String,-Tabl" font-family="PragmataProMono, PragmataPro Mono" font-size="16" font-weight="normal" fill="#141414">
+                    <tspan x="15" y="49">HashMap&lt;String, Table&gt; namespace</tspan>
+                </text>
+                <text font-family="PragmataProMono, PragmataPro Mono" font-size="14" font-weight="normal" fill="#141414">
+                    <tspan x="115" y="19">Database</tspan>
+                </text>
+            </g>
+            <path d="M817.409138,89.5 L905.5,89.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M894.7,92.5 L905.5,89.5 L894.7,86.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M488.409138,66.5 L616.503903,66.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M605.703903,69.5 L616.503903,66.5 L605.703903,63.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M273.409138,44.5 L336.5,44.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M325.7,47.5 L336.5,44.5 L325.7,41.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M1537.40914,367.5 L1625.5,367.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M1614.7,370.5 L1625.5,367.5 L1614.7,364.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M884.5,277.5 L905.5,277.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M894.7,280.5 L905.5,277.5 L894.7,274.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M835.5,129.5 L884.5,129.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M884.5,129.5 L884.5,277.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M578.5,202.5 L616.5,202.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M605.7,205.5 L616.5,202.5 L605.7,199.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M488.5,92.5 L578.5,92.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M578.5,92.5 L578.5,202.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M553.5,386.5 L616.5,386.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M605.7,389.5 L616.5,386.5 L605.7,383.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M553.5,566.5 L616.5,566.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M605.7,569.5 L616.5,566.5 L605.7,563.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M553.5,746.5 L616.5,746.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M605.7,749.5 L616.5,746.5 L605.7,743.5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M488.5,118.5 L553.569194,118.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M553.5,118.5 L553.5,746.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

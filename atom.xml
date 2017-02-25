@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
-  <updated>2017-02-24T18:28:26.000Z</updated>
+  <updated>2017-02-25T01:12:24.000Z</updated>
   <id>http://blog.zealoft.com/</id>
   
   <author>
@@ -16,14 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CS61B Project 2 Design Sheet</title>
+    <link href="http://blog.zealoft.com/2017/02/24/CS61B-Project-2-Design-Sheet/"/>
+    <id>http://blog.zealoft.com/2017/02/24/CS61B-Project-2-Design-Sheet/</id>
+    <published>2017-02-25T01:09:18.000Z</published>
+    <updated>2017-02-25T01:12:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="//images/cs61b-pj2-datastructure.svg" alt="a draft data structure design for the database"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;//images/cs61b-pj2-datastructure.svg&quot; alt=&quot;a draft data structure design for the database&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="code" scheme="http://blog.zealoft.com/categories/code/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>生日快乐</title>
     <link href="http://blog.zealoft.com/2017/02/24/Happy-Birthday-Shan/"/>
     <id>http://blog.zealoft.com/2017/02/24/Happy-Birthday-Shan/</id>
     <published>2017-02-24T13:29:25.000Z</published>
-    <updated>2017-02-24T18:28:26.000Z</updated>
+    <updated>2017-02-24T18:33:25.000Z</updated>
     
     <content type="html"><![CDATA[<p>朱珊：</p>
-<p>　　我为你挑了很久的礼物。钢笔，杯子，自动种花机，各种创意小玩意儿，好玩是很好玩。但是我觉得那些都不是我想要送给你的。不是智能手表，不是电动牙刷，这一次不是那些东西；这一次我想送给你一个有温度的礼物，就像你陪伴过度过我的日日夜夜里，给我的点点滴滴的快乐和信念。<br>　　这一次我选了一个萌萌的骷髅玩偶，可以活动的，不是那种永远一个姿势的玩偶。我希望它能够在你难过的时候卖卖萌，回报给你你曾经给我的那种小小的幸福。可惜的是，这个玩偶还需要连接起来。我不能亲手为你制作这个小玩偶，是有一点小小的遗憾。不过我给你买了工具套件，应该会简单一些。我希望这个小家伙不要太让你为难。<br>一个人在外的孤独感，加上尚未尘埃落定的未来，让我多少尝到了一些过去未曾尝过的滋味。和你在一起的那段记忆往往就会跑出来，想想大多数都是幸福的味道。我们在异国一起生活，相互支持，彼此照顾，这样的感情那些哈工大逛逛街亲亲嘴只会搂搂抱抱的小情侣们从未体验过。有过与你在一起的日子，我很幸福也很感激。虽然现在不在一起，我感谢你能让我继续做你的朋友，为你庆祝你的生日，和我闲扯。<br>　　二十一岁的你将成为你的青春的主人，你的努力与选择将书写你剩下的人生。你想要什么样的生活？从事什么职业？生活在哪里？你手中的笔已经按在你的蓝图上，希望你握紧它，运笔书写，不要让命运的潮水随意将你带向未知的远方。</p>
+<p>　　我为你挑了很久的礼物。钢笔，杯子，自动种花机，各种创意小玩意儿，好玩是很好玩。但是我觉得那些都不是我想要送给你的。不是智能手表，不是电动牙刷，这一次不是那些东西；这一次我想送给你一个有温度的礼物，就像你陪伴过度过我的日日夜夜里，给我的点点滴滴的快乐和信念。<br>　　这一次我选了一个萌萌的骷髅玩偶，可以活动的，不是那种永远一个姿势的玩偶。我希望它能够在你难过的时候卖卖萌，回报给你你曾经给我的那种小小的幸福。可惜的是，这个玩偶还需要连接起来。我不能亲手为你制作这个小玩偶，是有一点小小的遗憾。不过我给你买了工具套件，应该会简单一些。我希望这个小家伙不要太让你为难。<br>一个人在外的孤独感，加上尚未尘埃落定的未来，让我多少尝到了一些过去未曾尝过的滋味。和你在一起的那段记忆往往就会跑出来，想想大多数都是幸福的味道。我们在异国一起生活，相互支持，彼此照顾，这样的感情那些哈工大逛逛街亲亲嘴搂搂抱抱的小情侣们从未体验过。有过与你在一起的日子，我很幸福也很感激。虽然现在不在一起，我感谢你能让我继续做你的朋友，为你庆祝你的生日，和我闲扯。<br>　　二十一岁的你将成为你的青春的主人，你的努力与选择将书写你剩下的人生。你想要什么样的生活？从事什么职业？生活在哪里？你手中的笔已经按在你的蓝图上，希望你握紧它，运笔书写，不要让命运的潮水随意将你带向未知的远方。</p>
 <p>曾庆伟<br>太平洋时间二〇一七年二月二十四日凌晨于伯克利学生公社</p>
 ]]></content>
     
