@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>compact-short</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="compact-short">
+            <polygon id="Rectangle" fill="#22D2FF" points="-2.5507374e-14 3.69149156e-15 45.5776944 -0.154450045 144.093884 50.6403489 144.062973 97.0150539 -0.105816282 107.275316"></polygon>
+            <polygon id="Rectangle" fill="#FF2224" style="mix-blend-mode: multiply;" points="144.084564 15.0520456 -0.0664000829 56.9343292 -0.115136504 97.9303117 143.989983 132"></polygon>
+            <text id="zealoft" font-family="AvenirNext-Bold, Avenir Next" font-size="40" font-weight="bold" letter-spacing="-1.826087" fill="#FFFFFF">
+                <tspan x="12" y="83">zealoft</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
