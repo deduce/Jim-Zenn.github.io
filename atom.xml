@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zealoft.com/"/>
-  <updated>2017-02-27T21:38:57.000Z</updated>
+  <updated>2017-03-02T06:09:37.000Z</updated>
   <id>http://blog.zealoft.com/</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为生存努力的人与环游世界的人</title>
+    <link href="http://blog.zealoft.com/2017/03/01/survival-spectator/"/>
+    <id>http://blog.zealoft.com/2017/03/01/survival-spectator/</id>
+    <published>2017-03-02T05:38:18.000Z</published>
+    <updated>2017-03-02T06:09:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　一个从小为生存努力的人，愿意为面包打最零碎的工，愿意为省钱而坐一小时的公车。当他们获得温暖的房间、稳定的三餐，已经是奢侈的满足，惶然四顾：我还应该在做些什么？我还能要些什么？<br>　　但另一个从小环游世界的人，从来不愁吃穿，走过千山万水，看遍人间景色。温暖的房间，稳定的三餐有什么特别？于是要做大的事业，于是要 make the world a better place。金樽清酒斗十千，玉盘珍羞直万钱。 停杯投箸不能食，拔剑四顾心茫然。<br>　　不一样的人生，一个人的终点是另一个人的起点。<br>　　当然将温饱作为人生目标也没有什么过错，但是一个努力生存的人想要环游世界，就要付出双倍的努力，就要挑战自我的认知，就要在别人休息的时候，继续学习。<br>　　不会累吗？也会累啊。但是在那些成功的故事里，主人公好像从来不会疲惫，是真的不会累吗？还是那些主人公真是天选之子，无需休息？<br>　　有着环游世界的梦想，却总是疲惫的无法奔跑。该做什么选择呢？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　一个从小为生存努力的人，愿意为面包打最零碎的工，愿意为省钱而坐一小时的公车。当他们获得温暖的房间、稳定的三餐，已经是奢侈的满足，惶然四顾：我还应该在做些什么？我还能要些什么？&lt;br&gt;　　但另一个从小环游世界的人，从来不愁吃穿，走过千山万水，看遍人间景色。温暖的房间，稳定
+    
+    </summary>
+    
+      <category term="Life" scheme="http://blog.zealoft.com/categories/Life/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>CS61B Project 2 Design Sheet</title>
